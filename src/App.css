@@ -15,17 +15,8 @@
     background: #fff !important;
 }
 
-
 .input_card.active {
     border: 1px solid #Fa6458;
-}
-
-.nav_link:hover {
-    -webkit-text-stroke: 0.8px;
-}
-
-.arrows rect:hover {
-    fill: #359F35;
 }
 
 :focus-visible {
