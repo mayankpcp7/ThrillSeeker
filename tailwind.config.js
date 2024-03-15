@@ -22,6 +22,9 @@ module.exports = {
         "6xl": "64px",
         "2xl": "26px",
       },
+      backgroundImage: {
+        header: "url(./assets/images/webp/HeaderBg.webp)",
+      },
     },
   },
   plugins: [],
