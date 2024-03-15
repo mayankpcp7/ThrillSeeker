@@ -21,19 +21,19 @@ const Nav = () => {
           <div className="flex justify-between w-full items-center">
             <div className="flex items-center">
               <img
-                className="relative z-50 lg:max-w-[220px] cursor-pointer"
+                className="relative z-[100] lg:max-w-[220px] cursor-pointer"
                 src={logo}
                 alt="navlogo"
               />
             </div>
 
-            <div onClick={showUl} className="z-20 md:hidden">
-              <h3 className="text-lightred text-3xl sm:text-5xl">
+            <div onClick={showUl} className=" relative z-[100]  md:hidden">
+              <h3 className="text-lightred text-3xl sm:text-4xl">
                 {head ? <BiMenuAltLeft /> : <RxCross1 />}
               </h3>
             </div>
             <div
-              className={`flex flex-col md:flex-row  fixed md:relative w-full min-h-screen md:min-h-0 top-[0] left-[-100%] md:left-0 ttransition-opacity duration-700 md:transition-none  justify-center md:justify-end
+              className={`flex flex-col md:flex-row  fixed md:relative w-full z-50 min-h-screen md:min-h-0 top-[0] left-[-100%] md:left-0 ttransition-opacity duration-700 md:transition-none  justify-center md:justify-end
            items-center ${head ? "" : "!left-0 bg-white"}`}
             >
               <ul className="flex md:hidden gap-8 flex-col md:flex-row items-center">
@@ -80,7 +80,7 @@ const Nav = () => {
                   </span>
                 </button>
               </ul>
-              <ul className="hidden md:flex items-center gap-8">
+              <ul className="hidden md:flex items-center gap-5 lg:gap-8">
                 <li>
                   <a
                     className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300  stroke_2"
@@ -113,9 +113,9 @@ const Nav = () => {
                     FAQ’s
                   </a>
                 </li>
-                <button class="rounded-[10px] flex items-center ms-9  font-semibold font-inter h-[59px] w-[138px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
+                <button class="rounded-[10px] flex items-center ms-5 lg:ms-9  font-semibold font-inter h-[59px] w-[126px] lg:w-[138px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                   <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                  <span class="relative text-white text-center px-6 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
+                  <span class="relative text-white text-center px-4 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
                     Get Started
                   </span>
                 </button>

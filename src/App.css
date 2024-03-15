@@ -6,19 +6,23 @@
 .hover_stroke2:hover {
   -webkit-text-stroke-width: 0.5px;
 }
-
+/* ---------------------Header----------------------------------- */
+.header_flex_shadow {
+  box-shadow: 0px 9.005355834960938px 45.02677536010742px 0px #0000001a;
+}
+/* ----------------------footer----------------------------------- */
 .footer_link_hov:hover rect {
-    background: #fff !important;
+  background: #fff !important;
 }
 
 .footer_link_hov:hover path {
-    background: #fff !important;
+  background: #fff !important;
 }
 
 .input_card.active {
-    border: 1px solid #Fa6458;
+  border: 1px solid #fa6458;
 }
 
 :focus-visible {
-    outline: none !important;
+  outline: none !important;
 }
