@@ -1,12 +1,11 @@
-
-import './App.css';
-import Faqs from './components/Faqs';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
+import "./App.css";
+import Header from "./components/Header";
+import Faqs from "./components/Faqs";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Nav />
+      <Header />
       <Faqs />
       <Footer />
     </>
