@@ -1,4 +1,4 @@
-import insight from "../../assets/images/png/insight.png";
+
 
 // Twitter icon component
 export const TwitterIcon = () => {

@@ -1,5 +1,7 @@
 import React from "react";
-import insighticon from "../assets/images/png/insight.png";
+import insighticon from "../assets/images/webp/InsightIcon.webp";
+import personalservice from "../assets/images/webp/PersonalizedServiceIcon.webp";
+import assured from "../assets/images/webp/AssuredExcellenceIcon.webp";
 const ChooseUs = () => {
   return (
     <>
@@ -34,7 +36,7 @@ const ChooseUs = () => {
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 lg:p-6 p-3 choose_card items-center justify-center h-full">
                 <img
                   className="h-[60px] w-[60px]"
-                  src={insighticon}
+                  src={personalservice}
                   alt="icon"
                 />
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">
@@ -51,7 +53,7 @@ const ChooseUs = () => {
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 p-3 lg:p-6 choose_card items-center justify-center h-full">
                 <img
                   className="h-[60px] w-[60px]"
-                  src={insighticon}
+                  src={assured}
                   alt="icon"
                 />
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">

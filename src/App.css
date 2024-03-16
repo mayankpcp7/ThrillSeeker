@@ -42,6 +42,7 @@ select#flight {
 /*========================= footer_hover =======================*/
 .footer_link_hov:hover rect {
     fill: #fff !important;
+    transition: all 300ms linear;
 }
 
 /*=========================== faqbox ==========================*/
@@ -57,5 +58,18 @@ select#flight {
 }
 
 :focus-visible {
-  outline: none !important;
+    outline: none !important;
+}
+
+/*======================== slider_arrow_hov =========================*/
+.slider_arrow_hov:hover circle {
+    fill: #FA6458 !important;
+    opacity: 1;
+    transition: all 300ms linear;
+}
+
+.slider_arrow_hov:hover path {
+    fill: #fff !important;
+    opacity: 1;
+    transition: all 300ms linear;
 }
