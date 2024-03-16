@@ -5,10 +5,11 @@ const Footer = () => {
     const currentYear = new Date().getFullYear(); // Getting the current year
 
     return (
-        <div className='bg-black'>
+        <div className='bg-black relative z-0'>
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] mx-auto px-4 md:px-3'>
-                    <div className='pt-[158.84px] pb-6 sm:pb-8 md:pb-11 lg:pb-[58.58px]'>
+
+                    <div className='pt-[125px] md:pt-[158.84px] pb-6 sm:pb-8 md:pb-11 lg:pb-[58.58px]'>
                         {/*======================= Footer-logo =================================*/}
                         <a href="#logo" className="flex items-end mx-auto max-w-[282px]">
                             <img className="max-w-[95px]" src={FooterLogo} alt="FooterLogo" />
@@ -21,9 +22,9 @@ const Footer = () => {
                         {/*========================== footer-links ============================*/}
                         <ul className="flex items-center justify-center flex-wrap mt-5 md:mt-6 lg:mt-[30px] gap-6 sm:gap-[30px]">
                             <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Home</a></li>
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">About Us</a></li>
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Discover</a></li>
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Trip Plan</a></li>
+                            <li><a href="#About" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">About Us</a></li>
+                            <li><a href="#Discover" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Discover</a></li>
+                            <li><a href="#Trip" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Trip Plan</a></li>
                         </ul>
                         {/*========================== footer-icons ============================*/}
                         <div className="flex items-center justify-center flex-wrap gap-5 sm:gap-6 mt-5 md:mt-6 lg:mt-8 xl:mt-10">
