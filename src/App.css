@@ -2,23 +2,44 @@
 
 /* -----------------------Nav----------------------------------- */
 .stroke_2 {
-    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: 0.5px;
 }
 
 .hover_stroke2:hover {
-    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: 0.5px;
 }
-
+/* ---------------------Header----------------------------------- */
+.header_flex_shadow {
+  box-shadow: 0px 9.005355834960938px 45.02677536010742px 0px #0000001a;
+}
+/* Hide the default arrow */
+select#countries {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(./assets/images/svg/SelectIcon.svg);
+  background-position: right 16px center !important;
+}
+select#flight {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/*========================= footer_hover =======================*/
 .footer_link_hov:hover rect {
-    background: #fff !important;
+  fill: #fff !important;
 }
 
-.footer_link_hov:hover path {
-    background: #fff !important;
+/*=========================== faqbox ==========================*/
+.faqbox.active {
+  background-color: #fffcfc;
+  border: 1px solid #fa6458;
+  box-shadow: 0px 0px 12px 0px #0000001f;
 }
 
-.input_card.active {
-    border: 1px solid #Fa6458;
+/*========================== input classes =======================*/
+::placeholder {
+  color: #8c8f91 !important;
 }
 
 :focus-visible {
