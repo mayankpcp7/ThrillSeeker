@@ -1,6 +1,5 @@
 import React from 'react'
 import FemaleTourist from "../assets/images/webp/FemaleTourist.webp"
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -9,10 +8,7 @@ import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
 import { ClientContent } from './common/Helper';
 import { SliderNextbtn, SliderPrevbtn } from './common/Icons';
 
-
 const OurClient = () => {
-
-
     // Function to go to the next slide
     const nextarrow = () => {
         if (swiper.current && swiper.current.swiper) {
