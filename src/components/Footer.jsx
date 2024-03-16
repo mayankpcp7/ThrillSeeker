@@ -21,9 +21,9 @@ const Footer = () => {
                         {/*========================== footer-links ============================*/}
                         <ul className="flex items-center justify-center flex-wrap mt-5 md:mt-6 lg:mt-[30px] gap-6 sm:gap-[30px]">
                             <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Home</a></li>
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">About Us</a></li>
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Discover</a></li>
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Trip Plan</a></li>
+                            <li><a href="#About" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">About Us</a></li>
+                            <li><a href="#Discover" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Discover</a></li>
+                            <li><a href="#Trip" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Trip Plan</a></li>
                         </ul>
                         {/*========================== footer-icons ============================*/}
                         <div className="flex items-center justify-center flex-wrap gap-5 sm:gap-6 mt-5 md:mt-6 lg:mt-8 xl:mt-10">
