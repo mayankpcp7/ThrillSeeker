@@ -1,26 +1,25 @@
 import React, { useState } from 'react'
 import { FaqContent } from './common/Helper';
+import LeftElippse from "../assets/images/webp/OurNewsletterLeftEllipse.webp"
+import RightElippse from "../assets/images/webp/OurNewsletterRightEllipse.webp"
 
 const Faqs = () => {
-
     const [expandedIndex, setExpandedIndex] = useState(0);
-
     const toggleAccordion = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
     };
-
     return (
-        <div className='max-w-[1440px] mx-auto relative mt-[100px]' id='FAQ'>
+        <div className='max-w-[1440px] mx-auto relative mt-12 md:mt-[60px] lg:mt-20 xl:mt-[100px]' id='FAQ'>
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
                 <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center leading-[121%] mb-4'>Frequently Asked Questions</h2>
                 <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-primaryblack leading-[150%] mb-4 sm:mb-6 md:mb-8 lg:mb-10'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                 <div className='flex items-center justify-center flex-wrap z-10 relative'>
 
-                    <div className='mb-[100px]' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
+                    <div className='pb-12 md:pb-[60px] lg:pb-20 xl:pb-[100px]' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
                         {/*================================== mapping in faqs ==========================================*/}
                         {FaqContent.map((faqitem, index) => (
                             <div key={index} className="pb-4 sm:pb-6 lg:w-[922px]">
-                                <div className={`border border-solid border-[#cbcaca] rounded-[14px] md:rounded-[20px] px-4 md:px-[26px] input_card bg-[#fefdfd] shadow-FaqShadow ${expandedIndex === index ? 'active' : ''}`}>
+                                <div className={`border border-solid border-[#cbcaca] rounded-[14px] md:rounded-[20px] px-4 md:px-[26px] faqbox bg-[#fefdfd] shadow-FaqShadow ${expandedIndex === index ? 'active' : ''}`}>
                                     <button
                                         type="button"
                                         className={`flex items-center justify-between w-full text-left text-lg md:text-xl leading-[140%] pt-[26px] ${expandedIndex === index ? 'pb-[0px]' : 'pb-[26px]'} !font-medium text-dark font-inter ${expandedIndex === index ? 'text-color' : ''}`}
@@ -42,20 +41,21 @@ const Faqs = () => {
                         ))}
                     </div>
 
-                    <div className='w-full border-solid border border-white shadow-SubscribeCardShadow overflow-hidden rounded-[28.5px] py-16'>
-                        <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center leading-[121%]'>Subscribe to Our Newsletter</h2>
-                        <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-primaryblack leading-[150%] mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-
-                        <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-InputBoxShadow max-w-[512px] mx-auto mt-10'>
-                            <input type="email" placeholder='Enter Your email address' className='w-full outline-none font-inter font-normal text-base leading-[121%]' />
-                            <button class="rounded-[10px] flex items-center font-semibold font-inter h-[59px] w-[126px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
-                                <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                                <span class="relative text-white text-center px-6 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
-                                    Book Now
-                                </span>
-                            </button>
+                    {/*====================================== Subscribe to Our Newsletter Card =======================================*/}
+                    <div className='w-full shadow-SubscribeCardShadow overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
+                        <img className='absolute top-0 left-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={LeftElippse} alt="LeftElippse" />
+                        <img className='absolute bottom-0 right-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={RightElippse} alt="RightElippse" />
+                        <div className='relative z-10 px-3'>
+                            <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[120%]'>Subscribe to Our Newsletter</h2>
+                            <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-primaryblack !leading-[160%] mt-2 md:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                            <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-InputBoxShadow max-w-[512px] mx-auto mt-6 md:mt-10'>
+                                <input type="email" placeholder='Enter Your email address' className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5' />
+                                <button class="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
+                                    <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                                    <span class="relative mx-auto text-white text-center whitespace-nowrap transition duration-300 group-hover:text-extralightred ease text-[14px] md:text-base">Submit</span>
+                                </button>
+                            </div>
                         </div>
-
                     </div>
 
                 </div>

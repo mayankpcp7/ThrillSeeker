@@ -9,22 +9,25 @@
     -webkit-text-stroke-width: 0.5px;
 }
 
+/*========================= footer_hover =======================*/
 .footer_link_hov:hover rect {
     fill: #fff !important;
 }
 
-.input_card.active {
+/*=========================== faqbox ==========================*/
+.faqbox.active {
     background-color: #fffcfc;
     border: 1px solid #Fa6458;
     box-shadow: 0px 0px 12px 0px #0000001F;
 }
 
-.nav_link:hover {
-    -webkit-text-stroke: 0.8px;
+/*========================== input classes =======================*/
+::placeholder {
+    color: #8c8f91 !important;
 }
 
-.arrows rect:hover {
-    fill: #359F35;
+.nav_link:hover {
+    -webkit-text-stroke: 0.8px;
 }
 
 :focus-visible {

@@ -5,10 +5,11 @@ const Footer = () => {
     const currentYear = new Date().getFullYear(); // Getting the current year
 
     return (
-        <div className='bg-black'>
+        <div className='bg-black relative z-0'>
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] mx-auto px-4 md:px-3'>
-                    <div className='pt-[158.84px] pb-6 sm:pb-8 md:pb-11 lg:pb-[58.58px]'>
+
+                    <div className='pt-[125px] md:pt-[158.84px] pb-6 sm:pb-8 md:pb-11 lg:pb-[58.58px]'>
                         {/*======================= Footer-logo =================================*/}
                         <a href="#logo" className="flex items-end mx-auto max-w-[282px]">
                             <img className="max-w-[95px]" src={FooterLogo} alt="FooterLogo" />

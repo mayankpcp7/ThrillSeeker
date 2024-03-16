@@ -24,6 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         header: "url(./assets/images/webp/HeaderBg.webp)",
+        map: "url(./assets/images/webp/OurNewsletterBg.webp)",
       },
       boxShadow: {
         SubscribeCardShadow: " 0px 0px 20px 0px #00000033",
