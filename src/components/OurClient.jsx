@@ -41,11 +41,11 @@ const OurClient = () => {
     return (
         <div className='bg-[#fffcf6]'>
             <div className='max-w-[1440px] mx-auto mt-12 md:mt-[60px] lg:mt-20 xl:mt-[100px]'>
-                <div className='max-w-[1164px] mx-auto px-4 md:px-3 py-6 sm:py-10 md:py-12 lg:py-14'>
-                    <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center leading-[121%] mb-4'>What Our Client Say</h2>
+                <div className='max-w-[1164px] mx-auto px-4 md:px-3 py-6 sm:py-10 md:py-12 lg:py-[55px]'>
+                    <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[121%] mb-4'>What Our Client Say</h2>
                     <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[570px] text-center text-primaryblack leading-[150%] mb-4 sm:mb-6 md:mb-8 lg:mb-10'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 
-                    <div className='flex items-center lg:flex-row flex-col justify-end gap-3 sm:gap-5 md:gap-7'>
+                    <div className='flex items-center lg:flex-row flex-col justify-end gap-3 sm:gap-5 md:gap-7 xl:pt-5'>
                         <div className='max-w-[538px] w-full overflow-hidden border !border-transparent rounded-[20px] border-solid cursor-pointer shadow-TouristImageShadow'>
                             <img className='hover:scale-[1.05] duration-300 max-w-[538px] w-full' src={FemaleTourist} alt="FemaleTourist" />
                         </div>
