@@ -42,7 +42,7 @@ const Faqs = () => {
                     </div>
 
                     {/*====================================== Subscribe to Our Newsletter Card =======================================*/}
-                    <div className='w-full shadow-SubscribeCardShadow overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
+                    <div className='w-full shadow-CommonShadow overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
                         <img className='absolute top-0 left-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={LeftElippse} alt="LeftElippse" />
                         <img className='absolute bottom-0 right-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={RightElippse} alt="RightElippse" />
                         <div className='relative z-10 px-3'>
