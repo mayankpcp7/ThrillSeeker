@@ -21,7 +21,7 @@ const Nav = () => {
           <div className="flex justify-between w-full items-center">
             <div className="flex items-center">
               <img
-                className="relative z-[100] lg:max-w-[220px] cursor-pointer"
+                className="relative z-[100] max-w-[150px] lg:max-w-[220px] cursor-pointer"
                 src={logo}
                 alt="navlogo"
               />
@@ -75,7 +75,7 @@ const Nav = () => {
                 </li>
                 <button class="rounded-[10px] flex items-center   font-semibold font-inter h-[59px] w-[138px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                   <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                  <span class="relative text-white text-center px-6 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
+                  <span class="relative text-white mx-auto whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
                     Get Started
                   </span>
                 </button>
@@ -115,7 +115,7 @@ const Nav = () => {
                 </li>
                 <button class="rounded-[10px] flex items-center ms-5 lg:ms-9  font-semibold font-inter h-[59px] w-[126px] lg:w-[138px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                   <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                  <span class="relative text-white text-center px-4 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
+                  <span class="relative text-white text-center mx-auto whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
                     Get Started
                   </span>
                 </button>
