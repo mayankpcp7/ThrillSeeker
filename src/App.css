@@ -41,7 +41,7 @@ select#flight {
 }
 /*========================= footer_hover =======================*/
 .footer_link_hov:hover rect {
-  fill: #fff !important;
+    fill: #fff !important;
 }
 
 /*=========================== faqbox ==========================*/
