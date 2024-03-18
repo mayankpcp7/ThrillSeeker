@@ -18,7 +18,7 @@ const Header = () => {
   }, [counter]);
   return (
     <>
-      <header className="bg-center pb-[200px] lg:pb-[250px] bg-header bg-cover relative">
+      <header className="bg-center pb-[200px] lg:pb-[250px] bg-headerbg bg-cover relative">
         <Nav />
         <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[169px]">
           <h1 className=" text-[38px] sm:text-[55px] lg:text-6xl font-inter text-center sm:text-start text-white font-extrabold leading-[120%] max-w-[582px]">
@@ -46,7 +46,7 @@ const Header = () => {
               Join Our Happy Customer
             </p>
           </div>
-          <div className="flex flex-col items-center max-w-[290px] mx-auto sm:max-w-full mt-5 sm:mt-0 lg:items-start bg-white sm:ms-[17px] header_flex_shadow w-full rounded-[10px] p-8">
+          <div className="flex flex-col items-center max-w-[290px] mx-auto sm:max-w-full mt-5 sm:mt-0 lg:items-start bg-white sm:ms-[17px] shadow-headershadow w-full rounded-[10px] p-8">
             <div className="flex items-center">
               <span className="flex h-[3px] w-[39px] rounded-[27px] bg-[#CC1630]"></span>
               <p className="font-inter text-base text-black font-medium ms-[10px]">

@@ -49,7 +49,7 @@ const Nav = () => {
                 <li>
                   <a
                     onClick={showUl}
-                    className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover: hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
+                    className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover:text-black hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
                     href="#aboutus"
                   >
                     About Us
@@ -58,8 +58,8 @@ const Nav = () => {
                 <li>
                   <a
                     onClick={showUl}
-                    className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover: hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
-                    href="discover"
+                    className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover:text-black hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
+                    href="#discover"
                   >
                     Discover
                   </a>
@@ -67,7 +67,7 @@ const Nav = () => {
                 <li>
                   <a
                     onClick={showUl}
-                    className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover: hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
+                    className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover:text-black hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
                     href="#faq"
                   >
                     FAQ’s

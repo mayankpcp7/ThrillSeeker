@@ -24,14 +24,16 @@ module.exports = {
         "2xl": "26px",
       },
       backgroundImage: {
-        header: "url(./assets/images/webp/HeaderBg.webp)",
+        headerbg: "url(./assets/images/webp/HeaderBg.webp)",
         map: "url(./assets/images/webp/OurNewsletterBg.webp)",
         BlogImg: "url(./assets/images/webp/PlaneBg.webp)",
+        
       },
       boxShadow: {
         CommonShadow: " 0px 0px 20px 0px #00000033",
         InputBoxShadow: "0px 0px 40px 0px #0000001F",
         TouristImageShadow: "0px 0px 12px 0px #00000033",
+        headershadow:" 0px 9.005355834960938px 45.02677536010742px 0px #0000001a",
       },
     },
   },

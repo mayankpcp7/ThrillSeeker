@@ -5,10 +5,10 @@ const Bestoffers = () => {
     <>
       <section className="xl:pt-[150px] lg:py-25 md:py-20 sm:py-15 py-12 xl:pb-[109px]">
         <div className="max-w-[1164px] mx-auto md:px-3 px-4">
-          <h2 className="text-center font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold">
+          <h2 className="text-center font-inter text-[30px] sm:text-[32px] md:text-[36px] !leading-[121%] lg:text-[40px] xl:text-5xl font-bold">
             Best Offers
           </h2>
-          <p className="text-center leading-[120%] font-inter text-base text-primaryblack pt-3">
+          <p className="text-center leading-[120%] mb-1 font-inter text-base text-primaryblack pt-3">
             Check out our Top Rated Tours
           </p>
           <div className="flex flex-wrap justify-center mt-4 -mx-3">
@@ -24,10 +24,10 @@ const Bestoffers = () => {
                       />
                     </div>
                     <div className="flex overflow-hidden border border-t-0 rounded-b-[16px] border_none border-[#cccc] justify-between px-4 sm:pt-5 pt-3 pb-4 sm:pb-6">
-                      <h4 className="text-black font-inter text-lg font-medium">
+                      <h4 className="text-black leading-[121%] font-inter text-xl font-medium">
                         {offer.placename}
                       </h4>
-                      <p className="text-black font-inter text-base opacity-70">
+                      <p className="text-black font-inter text-base !leading-[121%] font-medium opacity-70">
                         {offer.price}
                       </p>
                     </div>

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap");
-
-/* -----------------------Nav----------------------------------- */
+/*========================  Nav  =========================*/
 .stroke_2 {
   -webkit-text-stroke-width: 0.5px;
 }
@@ -8,11 +7,8 @@
 .hover_stroke2:hover {
   -webkit-text-stroke-width: 0.5px;
 }
-/* ---------------------Header----------------------------------- */
-.header_flex_shadow {
-  box-shadow: 0px 9.005355834960938px 45.02677536010742px 0px #0000001a;
-}
-/* Hide the default arrow */
+
+/*========================  Hide the default arrow  =========================*/
 select#countries {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -25,25 +21,26 @@ select#flight {
   -moz-appearance: none;
   appearance: none;
 }
-/* -------------------------- Best_Offer --------------------- */
+/*======================== Best_Offer =========================*/
 .offer_card:hover .border_none {
   border: white;
 }
 .offer_card:hover .scale_105 {
   transform: scale(105%);
 }
-/* --------------------------- Choose_Us ------------------------ */
+/*======================== Choose_Us =========================*/
 .bg_choose {
   background-image: url(./assets/images/webp/ChooseBg.webp);
 }
 .choose_card:hover .text_black {
   color: black;
 }
-/* -------------------------- ticket package------------------- */
+/*======================== ticket package =========================*/
 .ticketcard:hover .ticketimg {
   transform: scale(1.1);
 }
-.swiper-slide {display: flex !important;
+.swiper-slide {
+  display: flex !important;
   justify-content: center !important;
 }
 /*========================= footer_hover =======================*/
@@ -79,39 +76,4 @@ select#flight {
   fill: #fff !important;
   opacity: 1;
   transition: all 300ms linear;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*=============================== slider-class ==============================*/
-.swiper-pagination {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.swiper-pagination .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    background-color: #9acf9a;
-    opacity: 1;
-    margin: 0 5px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #35a035;
-    transform: scale(1.7);
 }
