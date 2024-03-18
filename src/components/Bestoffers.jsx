@@ -7,7 +7,7 @@ const Bestoffers = () => {
         <div className="max-w-[1164px] mx-auto md:px-3 px-4">
           <h2 className="text-center font-inter text-[30px] sm:text-[32px] md:text-[36px] !leading-[121%] lg:text-[40px] xl:text-5xl font-bold">Best Offers</h2>
           <p className="text-center leading-[120%] mb-1 font-inter text-base text-primaryblack pt-3">Check out our Top Rated Tours</p>
-          {/*========================= Country_Destination_Cards ================================*/}
+          {/*========================= Country_Cards ================================*/}
           <div className="flex flex-wrap justify-center mt-4 -mx-3">
             {OfferCard.map((offer) => {
               return (

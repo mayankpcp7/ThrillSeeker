@@ -4,6 +4,7 @@ import LeftElippse from "../assets/images/webp/OurNewsletterLeftEllipse.webp"
 import RightElippse from "../assets/images/webp/OurNewsletterRightEllipse.webp"
 
 const Faqs = () => {
+    //====================== accordion_Toggleaction ==============================//
     const [expandedIndex, setExpandedIndex] = useState(0);
     const toggleAccordion = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
