@@ -9,7 +9,7 @@ import Gogglegirl from "../../assets/images/webp/GogglesGirl.webp";
 import MaldivesIsland from "../../assets/images/webp/MaldivesIsland.webp";
 import KarbiIsland from "../../assets/images/webp/KarbiBeachThailand.webp";
 import CliffMountainThailand from "../../assets/images/webp/CliffMountainThailand.webp";
-// -------------------------------------------Offer card-------------------------------------------
+//=============================== Offer card =======================================//
 export const OfferCard = [
   {
     CountryImg: Uk,
@@ -42,48 +42,42 @@ export const OfferCard = [
     Price: "$7.000",
   },
 ];
-
-// -------------------------------------------------Ticket Card-------------------------------------
-export const ticketCard = [
+//============================= Ticket Card ======================================//
+export const TicketCard = [
   {
-    img: Gogglegirl,
-    class: "first class",
-    about:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    price: "Starting at $500/ one tickets",
-    book: "Book Now",
+    MainImg: Gogglegirl,
+    TicketType: "first class",
+    About: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    Price: "Starting at $500/ one tickets",
+    Link: "Book Now",
   },
   {
-    img: Gogglegirl,
-    class: "first class",
-    about:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    price: "Starting at $500/ one tickets",
-    book: "Book Now",
+    MainImg: Gogglegirl,
+    TicketType: "first class",
+    About: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    Price: "Starting at $500/ one tickets",
+    Link: "Book Now",
   },
   {
-    img: Gogglegirl,
-    class: "first class",
-    about:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    price: "Starting at $500/ one tickets",
-    book: "Book Now",
+    MainImg: Gogglegirl,
+    TicketType: "first class",
+    About: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    Price: "Starting at $500/ one tickets",
+    Link: "Book Now",
   },
   {
-    img: Gogglegirl,
-    class: "first class",
-    about:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    price: "Starting at $500/ one tickets",
-    book: "Book Now",
+    MainImg: Gogglegirl,
+    TicketType: "first class",
+    About: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    Price: "Starting at $500/ one tickets",
+    Link: "Book Now",
   },
   {
-    img: Gogglegirl,
-    class: "first class",
-    about:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    price: "Starting at $500/ one tickets",
-    book: "Book Now",
+    MainImg: Gogglegirl,
+    TicketType: "first class",
+    About: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    Price: "Starting at $500/ one tickets",
+    Link: "Book Now",
   },
 ];
 
