@@ -1,9 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
 import { ticketCard } from "./common/Helper";
 const TicketPackage = () => {
@@ -98,10 +98,15 @@ const TicketPackage = () => {
               </div>
             </div>
             <div className="lg:w-6/12 w-full px-3">
-              <Swiper loop={true} Pagination={true} className="-m-4 mx-auto">
+              <Swiper
+                loop={true}
+                pagination={true}
+                modules={Pagination}
+                className="-m-4 mx-auto"
+              >
                 {ticketCard.map((ticket) => (
                   <SwiperSlide className="p-4" key={ticket.id}>
-                    <div className="flex overflow-hidden ticketcard max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
+                    <div className="flex overflow-hidden ticketcard shadow-TouristImageShadow max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
                       <div className="overflow-hidden rounded-[20px]">
                         <img
                           className="max-w-[478px] transition-all duration-300 w-full ticketimg"

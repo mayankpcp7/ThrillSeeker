@@ -1,6 +1,4 @@
-
-
-// Twitter icon component
+// Twitter icon
 export const TwitterIcon = () => {
   return (
     <svg
@@ -26,7 +24,7 @@ export const TwitterIcon = () => {
     </svg>
   );
 };
-// Twitter icon component
+// Twitter icon
 export const FacebookIcon = () => {
   return (
     <svg
@@ -52,7 +50,7 @@ export const FacebookIcon = () => {
     </svg>
   );
 };
-// Instagram icon component
+// Instagram icon
 export const InstagramIcon = () => {
   return (
     <svg
@@ -93,10 +91,10 @@ export const SliderPrevbtn = () => {
       <path
         opacity="0.7"
         d="M16.328 18L21.278 13.05L19.864 11.636L13.5 18L19.864 24.364L21.278 22.949L16.328 17.999L16.328 18Z"
-        fill="#FA6458"
-      />
-    </svg>
-  );
+        fill="#FA6458"                                                                                                            
+      />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    </svg>   
+  ); 
 };
 // Slider next btn
 export const SliderNextbtn = () => {
@@ -114,6 +112,9 @@ export const SliderNextbtn = () => {
         opacity="0.7"
         d="M18.9501 18.364L14.0001 23.314L15.4141 24.728L21.7781 18.364L15.4141 12L14.0001 13.415L18.9501 18.365V18.364Z"
         fill="#FA6458"
+
+  
+      
       />
     </svg>
   );

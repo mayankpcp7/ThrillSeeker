@@ -6,6 +6,8 @@ import OurClient from "./components/OurClient";
 import Bestoffers from "./components/Bestoffers";
 import ChooseUs from "./components/ChooseUs";
 import TicketPackage from "./components/TicketPackage";
+import OurBlog from "./components/OurBlog";
+import PlaceCards from "./components/PlaceCards";
 function App() {
   return (
     <>
@@ -14,6 +16,8 @@ function App() {
         <Bestoffers />
         <ChooseUs />
         <TicketPackage />
+        <OurBlog />
+        <PlaceCards />
         <OurClient />
         <Faqs />
         <Footer />

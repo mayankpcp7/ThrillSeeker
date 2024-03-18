@@ -24,7 +24,7 @@ const Faqs = () => {
                                         type="button"
                                         className={`flex items-center justify-between w-full text-left text-lg md:text-xl leading-[140%] pt-[26px] ${expandedIndex === index ? 'pb-[0px]' : 'pb-[26px]'} !font-medium text-dark font-inter ${expandedIndex === index ? 'text-color' : ''}`}
                                         onClick={() => toggleAccordion(index)} aria-expanded={expandedIndex === index} aria-controls={`faqs-text-${index}`}>
-                                        <span className={`pe-7 ${expandedIndex === index ? 'text-color1' : ''}`}>{faqitem.title}</span>
+                                        <span className={`pe-7 ${expandedIndex === index ? 'text-color1' : ''}`}>{faqitem.Title}</span>
 
                                         <svg className={`transform origin-center transition duration-200 ease-out ${expandedIndex === index ? 'rotate-180 svg-color' : 'svg-color'}`} width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.88369 9.63369C9.64928 9.86803 9.3314 9.99967 8.99994 9.99967C8.66848 9.99967 8.3506 9.86803 8.11619 9.63369L1.04494 2.56244C0.925553 2.44713 0.830325 2.3092 0.764814 2.1567C0.699302 2.00419 0.66482 1.84017 0.663377 1.67419C0.661935 1.50822 0.693562 1.34362 0.756414 1.19C0.819265 1.03638 0.912081 0.896812 1.02945 0.779446C1.14681 0.66208 1.28638 0.569264 1.44 0.506413C1.59362 0.443562 1.75822 0.411935 1.92419 0.413377C2.09017 0.41482 2.25419 0.449302 2.4067 0.514814C2.5592 0.580325 2.69713 0.675552 2.81244 0.79494L8.99994 6.98244L15.1874 0.79494C15.4232 0.567242 15.7389 0.441249 16.0667 0.444098C16.3944 0.446946 16.708 0.578406 16.9397 0.810167C17.1715 1.04193 17.3029 1.35544 17.3058 1.68319C17.3086 2.01093 17.1826 2.32669 16.9549 2.56244L9.88369 9.63369Z" fill="black" />
@@ -33,7 +33,7 @@ const Faqs = () => {
                                     <div id={`faqs-text-${index}`} role="region" aria-labelledby={`faqs-title-${index}`}
                                         className={`grid text-base overflow-hidden transition-all duration-300 ease-in-out ${expandedIndex === index ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                                         <div className="overflow-hidden">
-                                            <p className="pt-1 pb-[26px] text-black opacity-70 font-inter font-normal leading-[150%] md:ps-4 text-[14px] md:text-base max-w-[770px] ${expandedIndex === index ? 'text-color' : ''}">{faqitem.content}</p>
+                                            <p className="pt-1 pb-[26px] text-black opacity-70 font-inter font-normal leading-[150%] md:ps-4 text-[14px] md:text-base max-w-[770px] ${expandedIndex === index ? 'text-color' : ''}">{faqitem.Content}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ const Faqs = () => {
                     </div>
 
                     {/*====================================== Subscribe to Our Newsletter Card =======================================*/}
-                    <div className='w-full shadow-SubscribeCardShadow overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
+                    <div className='w-full shadow-CommonShadow overflow-hidden bg-Map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
                         <img className='absolute top-0 left-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={LeftElippse} alt="LeftElippse" />
                         <img className='absolute bottom-0 right-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={RightElippse} alt="RightElippse" />
                         <div className='relative z-10 px-3'>
