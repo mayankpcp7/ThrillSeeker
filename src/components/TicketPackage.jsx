@@ -6,44 +6,36 @@ import "swiper/css/navigation";
 import { Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
 import { ticketCard } from "./common/Helper";
-const TicketPackage = () => {
+const 
+
+  TicketPackage = () => {
   const [custemor, setcustemor] = useState(0);
   const [dailycustemor, setdailycustemor] = useState(0);
   const [teammember, setTeamMember] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
+useEffect(() => {
+  const intervals = [
+    setInterval(() => {
       if (custemor < 150) {
         setcustemor((prevCustemor) => prevCustemor + 1);
-      } else {
-        clearInterval(interval);
       }
-    }, 10);
-    return () => {
-      clearInterval(interval);
-    };
-  }, [custemor]);
-
-  useEffect(() => {
-    const dailyCustomerInterval = setInterval(() => {
+    }, 10),
+    setInterval(() => {
       if (dailycustemor < 99) {
         setdailycustemor((prevDailyCustemor) => prevDailyCustemor + 1);
       }
-    }, 10);
-    return () => {
-      clearInterval(dailyCustomerInterval);
-    };
-  }, [dailycustemor]);
-  useEffect(() => {
-    const teamMemberInterval = setInterval(() => {
+    }, 10),
+    setInterval(() => {
       if (teammember < 120) {
         setTeamMember((prevTeamMember) => prevTeamMember + 1);
       }
-    }, 10);
-    return () => {
-      clearInterval(teamMemberInterval);
-    };
-  }, [teammember]);
+    }, 10),
+  ];
+
+  return () => {
+    intervals.forEach(clearInterval);
+  };
+}, [custemor, dailycustemor, teammember]);
 
   return (
     <>
