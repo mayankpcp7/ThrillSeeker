@@ -1,7 +1,21 @@
 import React from "react";
-import selecticon from "../assets/images/svg/SelectIcon.svg";
+import { useState, useEffect } from "react";
 import Nav from "./Nav";
 const Header = () => {
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (counter < 900) {
+        setCounter((prevCounter) => prevCounter + 1);
+      } else {
+        clearInterval(interval);
+      }
+    }, 10);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [counter]);
   return (
     <>
       <header className="bg-center pb-[200px] lg:pb-[250px] bg-header bg-cover relative">
@@ -26,7 +40,7 @@ const Header = () => {
         <div className="flex flex-col sm:flex-row mt-[-82px] items-center xl:item-start relative z-30">
           <div className="flex bg-yellow flex-col rounded-[10px] w-[235px] h-[164px] justify-center px-4 py-[42px]">
             <h3 className="font-inter font-bold text-white text-[34px]">
-              900K+
+              {counter}K+
             </h3>
             <p className="text-white text-base font-inter font-medium pt-5 whitespace-nowrap">
               Join Our Happy Customer

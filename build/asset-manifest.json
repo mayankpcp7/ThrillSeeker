@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.058a2187.css",
-    "main.js": "/static/js/main.f09759b5.js",
+    "main.css": "/static/css/main.ada442bf.css",
+    "main.js": "/static/js/main.c679444a.js",
     "static/js/453.c571e350.chunk.js": "/static/js/453.c571e350.chunk.js",
     "static/media/HeaderBg.webp": "/static/media/HeaderBg.0c713a1ab2a675034d9b.webp",
+    "static/media/FemaleTourist.webp": "/static/media/FemaleTourist.b9384f2acdab2cc41367.webp",
+    "static/media/Dubai.webp": "/static/media/Dubai.11e17e69c638aebbe5a3.webp",
+    "static/media/Spain.webp": "/static/media/Spain.ef7f8ae9c8e111883923.webp",
+    "static/media/Uk.webp": "/static/media/Uk.9744b903ced506cc7b12.webp",
+    "static/media/Thailand.webp": "/static/media/Thailand.697362b29057549e5c4e.webp",
+    "static/media/India.webp": "/static/media/India.9cabd5ce4ab27fa5e0be.webp",
+    "static/media/OurNewsletterBg.webp": "/static/media/OurNewsletterBg.686bda6441630e4dc2c7.webp",
+    "static/media/Europe.webp": "/static/media/Europe.f2c7989abac6fb3e2991.webp",
     "static/media/NavLogo.svg": "/static/media/NavLogo.198eb8e12d5e9c8e5795b7e6c14da411.svg",
+    "static/media/ChooseBg.webp": "/static/media/ChooseBg.c660ef48aad9ac9ad13b.webp",
     "static/media/FooterLogo.webp": "/static/media/FooterLogo.b86ced56ce98c7a4cc88.webp",
+    "static/media/AssuredExcellenceIcon.webp": "/static/media/AssuredExcellenceIcon.038a0626bd2abf26fcf6.webp",
+    "static/media/InvertedComa.webp": "/static/media/InvertedComa.fde099149442185f3446.webp",
+    "static/media/PersonalizedServiceIcon.webp": "/static/media/PersonalizedServiceIcon.f43ff9532926f2e4be8f.webp",
+    "static/media/InsightIcon.webp": "/static/media/InsightIcon.ef65f97c28da64a63dfc.webp",
+    "static/media/OurNewsletterLeftEllipse.webp": "/static/media/OurNewsletterLeftEllipse.e58e7db85249df409924.webp",
+    "static/media/OurNewsletterRightEllipse.webp": "/static/media/OurNewsletterRightEllipse.07c5360b876654cbeae7.webp",
     "static/media/SelectIcon.svg": "/static/media/SelectIcon.12916f0859a0a8d61b38bc3850f8fa9e.svg",
     "index.html": "/index.html",
-    "main.058a2187.css.map": "/static/css/main.058a2187.css.map",
-    "main.f09759b5.js.map": "/static/js/main.f09759b5.js.map",
+    "main.ada442bf.css.map": "/static/css/main.ada442bf.css.map",
+    "main.c679444a.js.map": "/static/js/main.c679444a.js.map",
     "453.c571e350.chunk.js.map": "/static/js/453.c571e350.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.058a2187.css",
-    "static/js/main.f09759b5.js"
+    "static/css/main.ada442bf.css",
+    "static/js/main.c679444a.js"
   ]
 }

@@ -7,10 +7,10 @@ const ChooseUs = () => {
     <>
       <section className="bg_choose pt-10 pb-9 bg-cover bg-center">
         <div className="max-w-[1164px] mx-auto md:px-3 px-4">
-          <h2 className="text-center font-inter text-[30px] text-white sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold">
+          <h2 className="text-center font-inter text-[30px] leading-[120%] text-white sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold">
             Why Choose Us
           </h2>
-          <p className="text-center leading-[120%] font-inter text-base text-white max-w-[568px] mx-auto pt-2 lg:pt-3">
+          <p className="text-center leading-[120%] font-inter text-base text-white max-w-[568px] mx-auto pt-2 lg:pt-4">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
@@ -25,7 +25,7 @@ const ChooseUs = () => {
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">
                   Expert Insight
                 </h5>
-                <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-inter text-center max-w-[316px]">
+                <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-inter text-center max-w-[316px] text-sm lg:text-base">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                   The point of using Lorem Ipsum.
@@ -42,7 +42,7 @@ const ChooseUs = () => {
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">
                   Personalized Service
                 </h5>
-                <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-inter text-center max-w-[316px]">
+                <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-inter text-center max-w-[316px] text-sm lg:text-base">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                   The point of using Lorem Ipsum.
@@ -59,7 +59,7 @@ const ChooseUs = () => {
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">
                   Assured Excellence
                 </h5>
-                <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-inter text-center max-w-[316px]">
+                <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-inter text-center max-w-[316px] text-sm lg:text-base">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                   The point of using Lorem Ipsum.
@@ -67,7 +67,7 @@ const ChooseUs = () => {
               </div>
             </div>
           </div>
-          <button class="rounded-[10px] mx-auto flex items-center font-semibold font-inter h-[59px] mt-10 w-[139px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
+          <button class="rounded-[10px] mx-auto flex items-center font-semibold font-inter h-[50px] md:h-[59px] mt-10 w-[125px] md:w-[139px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
             <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
             <span class="relative text-white text-center mx-auto whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">
               Book Today

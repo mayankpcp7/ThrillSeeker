@@ -1,5 +1,5 @@
 import React from "react";
-import { OfferCard } from "./common/OfferMap";
+import { OfferCard } from "./common/Helper";
 const Bestoffers = () => {
   return (
     <>

@@ -9,13 +9,15 @@ import TicketPackage from "./components/TicketPackage";
 function App() {
   return (
     <>
-      <Header />
-      <Bestoffers />
-      <ChooseUs />
-      <TicketPackage/>
-      <OurClient />
-      <Faqs />
-      <Footer />
+      <div className="overflow-hidden">
+        <Header />
+        <Bestoffers />
+        <ChooseUs />
+        <TicketPackage />
+        <OurClient />
+        <Faqs />
+        <Footer />
+      </div>
     </>
   );
 }

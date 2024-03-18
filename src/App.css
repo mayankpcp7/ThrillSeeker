@@ -25,24 +25,34 @@ select#flight {
   -moz-appearance: none;
   appearance: none;
 }
-/* --------------------------Best   Offer--------------------- */
+/* -------------------------- Best_Offer --------------------- */
 .offer_card:hover .border_none {
   border: white;
 }
 .offer_card:hover .scale_105 {
   transform: scale(105%);
 }
-/* ---------------------------Choose Us------------------------ */
+/* --------------------------- Choose_Us ------------------------ */
 .bg_choose {
   background-image: url(./assets/images/webp/ChooseBg.webp);
 }
 .choose_card:hover .text_black {
   color: black;
 }
+/* -------------------------- ticket package------------------- */
+.ticketcard {
+  box-shadow: 0px 0px 12px 0px #00000033;
+}
+.ticketcard:hover .ticketimg {
+  transform: scale(1.1);
+}
+.swiper-slide {display: flex !important;
+  justify-content: center !important;
+}
 /*========================= footer_hover =======================*/
 .footer_link_hov:hover rect {
-    fill: #fff !important;
-    transition: all 300ms linear;
+  fill: #fff !important;
+  transition: all 300ms linear;
 }
 
 /*=========================== faqbox ==========================*/
@@ -58,18 +68,18 @@ select#flight {
 }
 
 :focus-visible {
-    outline: none !important;
+  outline: none !important;
 }
 
 /*======================== slider_arrow_hov =========================*/
 .slider_arrow_hov:hover circle {
-    fill: #FA6458 !important;
-    opacity: 1;
-    transition: all 300ms linear;
+  fill: #fa6458 !important;
+  opacity: 1;
+  transition: all 300ms linear;
 }
 
 .slider_arrow_hov:hover path {
-    fill: #fff !important;
-    opacity: 1;
-    transition: all 300ms linear;
+  fill: #fff !important;
+  opacity: 1;
+  transition: all 300ms linear;
 }
