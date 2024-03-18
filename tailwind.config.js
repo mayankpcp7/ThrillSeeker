@@ -16,6 +16,7 @@ module.exports = {
         lightwhite: "#b9bdbe",
         brown: "#4d396",
         secondaryblack: "#4d4c4a",
+        tertiaryblack: "#4d4c4c",
         offwhite: "#c7c4c2",
       },
       fontSize: {
@@ -24,7 +25,7 @@ module.exports = {
       },
       backgroundImage: {
         header: "url(./assets/images/webp/HeaderBg.webp)",
-        Map: "url(./assets/images/webp/OurNewsletterBg.webp)",
+        map: "url(./assets/images/webp/OurNewsletterBg.webp)",
         BlogImg: "url(./assets/images/webp/PlaneBg.webp)",
       },
       boxShadow: {

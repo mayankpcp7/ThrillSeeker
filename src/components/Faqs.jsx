@@ -33,7 +33,7 @@ const Faqs = () => {
                                     <div id={`faqs-text-${index}`} role="region" aria-labelledby={`faqs-title-${index}`}
                                         className={`grid text-base overflow-hidden transition-all duration-300 ease-in-out ${expandedIndex === index ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                                         <div className="overflow-hidden">
-                                            <p className="pt-1 pb-[26px] text-black opacity-70 font-inter font-normal leading-[150%] md:ps-4 text-[14px] md:text-base max-w-[770px] ${expandedIndex === index ? 'text-color' : ''}">{faqitem.Content}</p>
+                                            <p className="pt-1 pb-[26px] text-tertiaryblack font-inter font-normal leading-[150%] md:ps-4 text-[14px] md:text-base max-w-[770px] ${expandedIndex === index ? 'text-color' : ''}">{faqitem.Content}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -42,14 +42,14 @@ const Faqs = () => {
                     </div>
 
                     {/*====================================== Subscribe to Our Newsletter Card =======================================*/}
-                    <div className='w-full shadow-CommonShadow overflow-hidden bg-Map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
+                    <div className='w-full shadow-CommonShadow overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
                         <img className='absolute top-0 left-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={LeftElippse} alt="LeftElippse" />
                         <img className='absolute bottom-0 right-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={RightElippse} alt="RightElippse" />
                         <div className='relative z-10 px-3'>
                             <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[120%]'>Subscribe to Our Newsletter</h2>
-                            <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-primaryblack !leading-[160%] mt-2 md:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                            <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-[#494949] !leading-[160%] mt-2 md:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
                             <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-InputBoxShadow max-w-[512px] mx-auto mt-6 md:mt-10'>
-                                <input type="email" placeholder='Enter Your email address' className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5' />
+                                <input name='email' type="email" placeholder='Enter Your email address' className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5' />
                                 <button class="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                                     <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                                     <span class="relative mx-auto text-white text-center whitespace-nowrap transition duration-300 group-hover:text-extralightred ease text-[14px] md:text-base">Submit</span>

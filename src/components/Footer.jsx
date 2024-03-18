@@ -18,7 +18,7 @@ const Footer = () => {
                                 <span className="font-barlow font-medium text-extralightred text-[7px] leading-[117%]">SLOGAN COMPANY HERE</span>
                             </span>
                         </a>
-                        <p className="font-inter text-[14px] sm:text-base leading-[150%] text-white opacity-70 max-w-[494px] mx-auto mt-4 text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
+                        <p className="font-inter text-[14px] sm:text-base leading-[150%] text-[#b2b2b2] max-w-[494px] mx-auto mt-4 text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
                         {/*========================== footer-links ============================*/}
                         <ul className="flex items-center justify-center flex-wrap mt-5 md:mt-6 lg:mt-[30px] gap-6 sm:gap-[30px]">
                             <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Home</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
 
                     <div className="bg-white opacity-35 h-[1px] w-full"></div>
                     {/*============================ copywrite text =================================*/}
-                    <p className="font-inter font-normal text-[14px] sm:text-base leading-[121%] flex items-center justify-center text-white opacity-70 py-3 md:py-4 lg:px-5 xl:py-6">@Copyrights{currentYear}</p>
+                    <p className="font-inter font-normal text-[14px] sm:text-base leading-[121%] flex items-center justify-center text-[#b2b2b2] py-3 md:py-4 lg:px-5 xl:py-6">@Copyrights{currentYear}</p>
 
                 </div>
             </div>
