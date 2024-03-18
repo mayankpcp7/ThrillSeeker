@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import OurClient from "./components/OurClient";
 import OurBlog from "./components/OurBlog";
 import PlaceCards from "./components/PlaceCards";
+import BackToTop from "./components/common/BackToTop";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <OurClient />
       <Faqs />
       <Footer />
+      <BackToTop />
     </>
   );
 }
