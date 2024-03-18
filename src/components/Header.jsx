@@ -2,9 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Nav from "./Nav";
 const Header = () => {
-  //============== join_happy_costmer_counter_function =================//
+  //============== join happy costmer counter function =================//
   const [counter, setCounter] = useState(0);
-  //===================== useeffect_of_counter =========================//
+  //===================== useeffect of counter =========================//
   useEffect(() => {
     const interval = setInterval(() => {
       if (counter < 900) {
@@ -19,9 +19,11 @@ const Header = () => {
   }, [counter]);
   return (
     <>
-      {/*====================================== main_header ========================================*/}
+      {/*====================================== main header ========================================*/}
       <header className="bg-center pb-[200px] lg:pb-[250px] bg-headerbg bg-cover relative">
+        {/*===== Nav ======*/}
         <Nav />
+
         <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[169px]" id="home">
           <h1 className=" text-[38px] sm:text-[55px] lg:text-6xl font-inter text-center sm:text-start text-white font-extrabold leading-[120%] max-w-[582px]">Explore The World Around You</h1>
           <p className="pt-1 sm:pt-4 sm:text-base text-sm text-center sm:text-start text-white font-inter mx-auto sm:mx-0 max-w-[461px] sm:max-w-[550px] lg:max-w-[568px]">
@@ -36,12 +38,12 @@ const Header = () => {
 
       <div className="max-w-[1164px] mx-auto md:px-3 px-4">
         <div className="flex flex-col sm:flex-row mt-[-82px] items-center xl:item-start relative z-30">
-          {/*==================================== counter_box_div ====================================*/}
+          {/*==================================== counter box div ====================================*/}
           <div className="flex bg-yellow flex-col rounded-[10px] w-[235px] h-[164px] justify-center px-4 py-[42px]">
             <h3 className="font-inter font-bold text-white text-[34px]">{counter}K+</h3>
             <p className="text-white text-base font-inter font-medium pt-5 whitespace-nowrap">Join Our Happy Customer</p>
           </div>
-          {/*========================================= Choose_Trip_and_Plan =================================*/}
+          {/*========================================= Choose Trip and Plan =================================*/}
           <div className="flex flex-col items-center max-w-[290px] mx-auto sm:max-w-full mt-5 sm:mt-0 lg:items-start bg-white sm:ms-[17px] shadow-headershadow w-full rounded-[10px] p-8">
             <div className="flex items-center">
               <span className="flex h-[3px] w-[39px] rounded-[27px] bg-[#CC1630]"></span>

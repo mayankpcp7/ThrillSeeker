@@ -11,7 +11,7 @@ const ChooseUs = () => {
           <p className="text-center !leading-[150%] font-inter text-base text-white max-w-[568px] mx-auto pt-2 lg:pt-4">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           <div className="flex flex-wrap justify-center  mt-10 -mx-3">
-            {/*============================ ChooseUs_Cards ==================================*/}
+            {/*============================ ChooseUs Cards ==================================*/}
             <div className="w-10/12 sm:w-6/12 md:w-4/12 p-3">
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 p-3 lg:p-6 choose_card items-center justify-center h-full">
                 <img className="h-[50px] w-[50px]" src={InsightIcon} alt="InsightIcon" />

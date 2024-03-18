@@ -39,23 +39,16 @@ const OurClient = () => {
       <div className="bg-[#fffcf6]">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[1164px] mx-auto px-4 md:px-3 py-6 sm:py-10 md:py-12 lg:py-[55px]">
-            <h2 className="font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[121%] mb-4">
-              What Our Client Say
-            </h2>
+            <h2 className="font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[121%] mb-4">What Our Client Say</h2>
             <p className="font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[570px] text-center text-secondaryblack leading-[150%] mb-4 sm:mb-6 md:mb-8 lg:mb-10">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
-            </p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 
             <div className="flex items-center lg:flex-row flex-col justify-end gap-3 sm:gap-5 md:gap-7 xl:pt-5">
+              {/*============================== Clients Img ==============================*/}
               <div className="max-w-[538px] w-full overflow-hidden border !border-none rounded-[20px] cursor-pointer shadow-TouristImageShadow">
-                <img
-                  className="hover:scale-[1.05] duration-300 max-w-[538px] w-full"
-                  src={FemaleTourist}
-                  alt="FemaleTourist"
-                />
+                <img className="hover:scale-[1.05] duration-300 max-w-[538px] w-full" src={FemaleTourist} alt="FemaleTourist" />
               </div>
-
+              {/*============================== About Clients Information ==============================*/}
               <div className="w-full !max-w-[558px]">
                 <Swiper
                   slidesPerView={1}
@@ -87,10 +80,12 @@ const OurClient = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
+                {/*============================= Slider Arrow ============================*/}
                 <div className="mt-3 sm:mt-4 md:mt-5 lg:mt-6 xl:mt-8 gap-3 flex">
                   <button className="z-[10]" onClick={prevarrow}><SliderPrevbtn /> </button>
                   <button className=" z-[10]" onClick={nextarrow}><SliderNextbtn /> </button>
                 </div>
+
               </div>
             </div>
           </div>
