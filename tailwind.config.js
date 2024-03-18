@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         header: "url(./assets/images/webp/HeaderBg.webp)",
-        map: "url(./assets/images/webp/OurNewsletterBg.webp)",
+        Map: "url(./assets/images/webp/OurNewsletterBg.webp)",
         BlogImg: "url(./assets/images/webp/PlaneBg.webp)",
       },
       boxShadow: {

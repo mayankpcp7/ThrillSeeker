@@ -1,4 +1,4 @@
-// Twitter icon component
+// Twitter icon
 export const TwitterIcon = () => {
     return (
         <svg className="footer_link_hov" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -7,7 +7,7 @@ export const TwitterIcon = () => {
         </svg>
     );
 };
-// Twitter icon component
+// Twitter icon
 export const FacebookIcon = () => {
     return (
         <svg className="footer_link_hov" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@ export const FacebookIcon = () => {
         </svg>
     );
 };
-// Instagram icon component
+// Instagram icon
 export const InstagramIcon = () => {
     return (
         <svg className="footer_link_hov" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">

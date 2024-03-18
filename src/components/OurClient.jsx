@@ -67,13 +67,13 @@ const OurClient = () => {
                                     className="mySwiper"
                                     onSwiper={onSwiper}>
 
-                                    {ClientContent.map((obj, i) => (
-                                        <SwiperSlide key={i} className="swiper-slide">
+                                    {ClientContent.map((obj, index) => (
+                                        <SwiperSlide key={index} className="swiper-slide">
                                             <div className='flex flex-col'>
                                                 <img className='w-[48px] sm:w-[60px] md:w-[70px] lg:w-[82px] mb-3 sm:mb-4 md:mb-5' src={obj.InvertedComa} alt="InvertComa" />
                                                 <p className='font-inter font-normal text-[14px] sm:text-base leading-[150%] text-black opacity-70 max-w-[558px]'>{obj.Paragraph}</p>
                                                 <p className='font-inter font-medium text-base !leading-[121%] mt-4 text-black'>{obj.Name}</p>
-                                                <p className='font-inter font-medium text-base !leading-[121%] text-black opacity-70 mt-1 sm:mt-2'>{obj.text}</p>
+                                                <p className='font-inter font-medium text-base !leading-[121%] text-black opacity-70 mt-1 sm:mt-2'>{obj.Text}</p>
                                             </div>
                                         </SwiperSlide>
                                     ))}
