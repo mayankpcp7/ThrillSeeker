@@ -5,7 +5,7 @@ import assured from "../assets/images/webp/AssuredExcellenceIcon.webp";
 const ChooseUs = () => {
   return (
     <>
-      <section className="bg_choose pt-10 pb-9 bg-cover bg-center">
+      <section className="bg_choose pt-10 pb-9 bg-cover bg-center" id="aboutus">
         <div className="max-w-[1164px] mx-auto md:px-3 px-4">
           <h2 className="text-center font-inter text-[30px] !leading-[121%] text-white sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold">
             Why Choose Us

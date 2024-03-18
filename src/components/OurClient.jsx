@@ -35,7 +35,7 @@ const OurClient = () => {
   };
 
   return (
-    <div className="pt-12 md:pt-[60px] lg:pt-20 xl:pt-[100px]">
+    <div className="pt-12 md:pt-[60px] lg:pt-20 xl:pt-[100px]" id="discover">
       <div className="bg-[#fffcf6]">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[1164px] mx-auto px-4 md:px-3 py-6 sm:py-10 md:py-12 lg:py-[55px]">
@@ -79,7 +79,7 @@ const OurClient = () => {
                   {ClientContent.map((obj, index) => (
                     <SwiperSlide key={index} className="swiper-slide">
                       <div className="flex flex-col">
-                        <img className="w-[48px] sm:w-[60px] md:w-[70px] lg:w-[82px] mb-3 sm:mb-4 md:mb-5" src={obj.InvertedComa} alt="InvertComa"/>
+                        <img className="w-[48px] sm:w-[60px] md:w-[70px] lg:w-[82px] mb-3 sm:mb-4 md:mb-5" src={obj.InvertedComa} alt="InvertComa" />
                         <p className="font-inter font-normal text-[14px] sm:text-base leading-[150%] text-secondaryblack max-w-[558px]">{obj.Paragraph}</p>
                         <p className="font-inter font-medium text-base !leading-[121%] mt-4 text-black"> {obj.Name}</p>
                         <p className="font-inter font-medium text-base !leading-[121%] text-secondaryblack mt-1 sm:mt-2">{obj.Text}</p>

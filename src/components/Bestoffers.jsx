@@ -3,7 +3,7 @@ import { OfferCard } from "./common/Helper";
 const Bestoffers = () => {
   return (
     <>
-      <section className="xl:pt-[150px] lg:py-25 md:py-20 sm:py-15 py-12 xl:pb-[109px]">
+      <section className="xl:pt-[150px] lg:py-25 md:py-20 sm:py-15 py-12 xl:pb-[109px]" id="trip">
         <div className="max-w-[1164px] mx-auto md:px-3 px-4">
           <h2 className="text-center font-inter text-[30px] sm:text-[32px] md:text-[36px] !leading-[121%] lg:text-[40px] xl:text-5xl font-bold">
             Best Offers

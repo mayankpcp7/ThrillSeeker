@@ -20,7 +20,7 @@ const Header = () => {
     <>
       <header className="bg-center pb-[200px] lg:pb-[250px] bg-headerbg bg-cover relative">
         <Nav />
-        <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[169px]">
+        <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[169px]" id="home">
           <h1 className=" text-[38px] sm:text-[55px] lg:text-6xl font-inter text-center sm:text-start text-white font-extrabold leading-[120%] max-w-[582px]">
             Explore The World Around You
           </h1>
