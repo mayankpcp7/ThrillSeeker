@@ -43,13 +43,13 @@ const Faqs = () => {
                     </div>
 
                     {/*====================================== Subscribe to Our Newsletter Card =======================================*/}
-                    <div className='w-full shadow-CommonShadow overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
+                    <div className='w-full shadow-common overflow-hidden bg-map bg-no-repeat bg-cover bg-center rounded-[15px] md:rounded-[28.5px] py-10 md:py-[63px] bg-white relative -mt-[100px] translate-y-[30%]'>
                         <img className='absolute top-0 left-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={LeftElippse} alt="LeftElippse" />
                         <img className='absolute bottom-0 right-0 w-[100px] sm:w-[140px] md:w-[160px] lg:w-[189px]' src={RightElippse} alt="RightElippse" />
                         <div className='relative z-10 px-3'>
                             <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[120%]'>Subscribe to Our Newsletter</h2>
                             <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-[#494949] !leading-[160%] mt-2 md:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-                            <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-InputBoxShadow max-w-[512px] mx-auto mt-6 md:mt-10'>
+                            <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-inputbox max-w-[512px] mx-auto mt-6 md:mt-10'>
                                 <input name='email' type="email" placeholder='Enter Your email address' className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5' />
                                 <button class="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                                     <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>

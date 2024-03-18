@@ -44,7 +44,7 @@ const Header = () => {
             <p className="text-white text-base font-inter font-medium pt-5 whitespace-nowrap">Join Our Happy Customer</p>
           </div>
           {/*========================================= Choose Trip and Plan =================================*/}
-          <div className="flex flex-col items-center max-w-[290px] mx-auto sm:max-w-full mt-5 sm:mt-0 lg:items-start bg-white sm:ms-[17px] shadow-headershadow w-full rounded-[10px] p-8">
+          <div className="flex flex-col items-center max-w-[290px] mx-auto sm:max-w-full mt-5 sm:mt-0 lg:items-start bg-white sm:ms-[17px] shadow-selectbox w-full rounded-[10px] p-8">
             <div className="flex items-center">
               <span className="flex h-[3px] w-[39px] rounded-[27px] bg-[#CC1630]"></span>
               <p className="font-inter text-base text-black font-medium ms-[10px]">Search Your Products</p>

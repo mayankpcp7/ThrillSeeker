@@ -45,7 +45,7 @@ const OurClient = () => {
 
             <div className="flex items-center lg:flex-row flex-col justify-end gap-3 sm:gap-5 md:gap-7 xl:pt-5">
               {/*============================== Clients Img ==============================*/}
-              <div className="max-w-[538px] w-full overflow-hidden border !border-none rounded-[20px] cursor-pointer shadow-TouristImageShadow">
+              <div className="max-w-[538px] w-full overflow-hidden border !border-none rounded-[20px] cursor-pointer shadow-tourists">
                 <img className="hover:scale-[1.05] duration-300 max-w-[538px] w-full" src={FemaleTourist} alt="FemaleTourist" />
               </div>
               {/*============================== About Clients Information ==============================*/}

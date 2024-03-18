@@ -79,7 +79,7 @@ const
                 <Swiper loop={true} modules={Pagination} className="-m-4 mx-auto">
                   {TicketCard.map((ticket) => (
                     <SwiperSlide className="p-4" key={ticket.id}>
-                      <div className="flex overflow-hidden ticketcard shadow-TouristImageShadow max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
+                      <div className="flex overflow-hidden ticketcard shadow-tourists max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
                         <div className="overflow-hidden rounded-[20px]">
                           <img className="max-w-[478px] transition-all duration-300 w-full ticketimg" src={ticket.MainImg} alt="girlimg" />
                         </div>
