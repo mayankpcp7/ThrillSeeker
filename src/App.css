@@ -80,3 +80,38 @@ select#flight {
   opacity: 1;
   transition: all 300ms linear;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================== slider-class ==============================*/
+.swiper-pagination {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #9acf9a;
+    opacity: 1;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #35a035;
+    transform: scale(1.7);
+}

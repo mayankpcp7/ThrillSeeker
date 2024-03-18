@@ -62,7 +62,7 @@ const TicketPackage = () => {
                 here, content here', making it look like readable English. Many
                 desktop publishing packages and web page editors now use Lorem
                 Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy. 
+                ipsum' will uncover many web sites still in their infancy.
               </p>
               <button class="rounded-[10px] mx-auto lg:mx-0 mt-5 lg:mt-10 flex items-center font-semibold font-inter h-[50px] md:h-[59px] w-[125px] md:w-[131px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                 <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
@@ -98,12 +98,7 @@ const TicketPackage = () => {
               </div>
             </div>
             <div className="lg:w-6/12 w-full px-3">
-              <Swiper
-                loop={true}
-                pagination={true}
-                modules={Pagination}
-                className="-m-4 mx-auto"
-              >
+              <Swiper loop={true} modules={Pagination} className="-m-4 mx-auto">
                 {ticketCard.map((ticket) => (
                   <SwiperSlide className="p-4" key={ticket.id}>
                     <div className="flex overflow-hidden ticketcard shadow-TouristImageShadow max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
