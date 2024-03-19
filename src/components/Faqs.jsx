@@ -9,6 +9,36 @@ const Faqs = () => {
     const toggleAccordion = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
     };
+
+
+    const [email, setEmail] = useState('');
+    const [emailError, setEmailError] = useState('');
+
+    const handleInputChange = (e) => {
+        setEmail(e.target.value);
+    };
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        // Email validation regex pattern
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!email.trim()) {
+            setEmailError('Email address is required');
+        } else if (!emailPattern.test(email)) {
+            setEmailError('Invalid email address');
+        } else {
+            // Clear email error and submit the form
+            setEmailError('');
+            console.log('Form submitted:', email);
+
+            // Clear the email input field after submission
+            setEmail('');
+        }
+    };
+
+
     return (
         <div className='max-w-[1440px] mx-auto relative mt-12 md:mt-[60px] lg:mt-20 xl:mt-[100px]' id='faq'>
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
@@ -49,13 +79,28 @@ const Faqs = () => {
                         <div className='relative z-10 px-3'>
                             <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center !leading-[120%]'>Subscribe to Our Newsletter</h2>
                             <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-[#494949] !leading-[160%] mt-2 md:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-                            <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-inputbox max-w-[512px] mx-auto mt-6 md:mt-10'>
-                                <input name='email' type="email" placeholder='Enter Your email address' className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5' />
-                                <button class="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
-                                    <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                                    <span class="relative mx-auto text-white text-center whitespace-nowrap transition duration-300 group-hover:text-extralightred ease text-[14px] md:text-base">Submit</span>
-                                </button>
-                            </div>
+
+                            <form onSubmit={handleFormSubmit}>
+                                <div className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-inputbox max-w-[512px] mx-auto mt-6 md:mt-10'>
+                                    <input
+                                        name='email'
+                                        type="email"
+                                        placeholder='Enter Your email address'
+                                        value={email}
+                                        onChange={handleInputChange}
+                                        className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5'
+                                    />
+                                    <button
+                                        type="submit"
+                                        className="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred"
+                                    >
+                                        <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                                        <span className="relative mx-auto text-white text-center whitespace-nowrap transition duration-300 group-hover:text-extralightred ease text-[14px] md:text-base">Submit</span>
+                                    </button>
+                                </div>
+                                {emailError && <p className="text-red-500 mt-2">{emailError}</p>}
+                            </form>
+
                         </div>
                     </div>
 
