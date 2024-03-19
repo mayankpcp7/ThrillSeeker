@@ -36,9 +36,9 @@ const PlaceCards = () => {
                                 <p className='font-inter font-normal text-[14px] sm:text-base text-primaryblack !leading-[150%]'>{object.HideParagraph}</p>
                             )}
                             {/*============================ Read More Btn ==============================*/}
-                            <button className="rounded-[10px] flex items-center mt-4 sm:mt-6 font-semibold font-inter h-[47px] w-[131px] overflow-hidden relative group cursor-pointer border text-base border-extralightred bg-white text-extralightred" onClick={() => handleCardClick(index)}>
+                            <button className="rounded-[10px] flex items-center mt-4 sm:mt-6 font-semibold font-inter h-[45px] lg:h-[47px] lg:w-[131px] overflow-hidden relative group cursor-pointer border text-base border-extralightred bg-white text-extralightred" onClick={() => handleCardClick(index)}>
                                 <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-extralightred top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                                <span class="relative text-extralightred text-center px-6 whitespace-nowrap transition duration-300 group-hover:text-white ease">{object.BtnText}</span>
+                                <span class="relative text-extralightred text-center px-6 whitespace-nowrap text-[14px] lg:text-base transition duration-300 group-hover:text-white ease">{object.BtnText}</span>
                             </button>
 
                         </div>

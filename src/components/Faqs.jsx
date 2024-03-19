@@ -59,7 +59,7 @@ const Faqs = () => {
                             {/*========================================= Email Validation =========================================*/}
                             <form onSubmit={handleFormSubmit} className='flex items-center justify-between gap-4 bg-white border border-white border-solid rounded-[10px] p-1.5 shadow-inputbox max-w-[512px] mx-auto mt-4 md:mt-6 lg:mt-8 xl:mt-10'>
                                 <input ref={emailRef} type="email" placeholder='Enter Your email address' required className='w-full outline-none font-inter font-normal text-[14px] sm:text-base !leading-[121%] text-[#8c8f91] ps-2 md:ps-5' />
-                                <button type="submit" className="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
+                                <button type="submit" className="rounded-[10px] flex items-center font-semibold font-inter h-[45px] min-w-[90px] md:h-[52px] lg:h-[59px] md:min-w-[103px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                                     <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                                     <span className="relative mx-auto text-white text-center whitespace-nowrap transition duration-300 group-hover:text-extralightred ease text-[14px] md:text-base">Submit</span>
                                 </button>
