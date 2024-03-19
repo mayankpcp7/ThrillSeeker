@@ -24,7 +24,7 @@ const Header = () => {
         {/*===== Nav ======*/}
         <Nav />
 
-        <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[169px]" id="home" data-aos="fade-up"
+        <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[161px]" id="home" data-aos="fade-up"
           data-aos-duration="1500">
           <h1 className=" text-[38px] sm:text-[55px] lg:text-6xl font-inter text-center sm:text-start text-white font-extrabold leading-[120%] max-w-[582px]">Explore The World Around You</h1>
           <p className="pt-1 sm:pt-4 sm:text-base text-sm text-center sm:text-start text-white font-inter mx-auto sm:mx-0 max-w-[461px] sm:max-w-[550px] lg:max-w-[568px]">
@@ -41,7 +41,7 @@ const Header = () => {
         <div className="flex flex-col sm:flex-row mt-[-82px] items-center xl:item-start relative z-30">
           {/*==================================== counter box div ====================================*/}
           <div className="flex bg-yellow flex-col rounded-[10px] w-[235px] h-[164px] justify-center px-4 py-[42px]" data-aos="fade-right" data-aos-duration="1500">
-   
+
             <h3 className="font-inter font-bold text-white text-[34px]">{counter}K+</h3>
             <p className="text-white text-base font-inter font-medium pt-5 whitespace-nowrap">Join Our Happy Customer</p>
           </div>
