@@ -1,9 +1,9 @@
-import Uk from "../../assets/images/webp/Uk.webp";
-import Dubai from "../../assets/images/webp/Dubai.webp";
-import India from "../../assets/images/webp/India.webp";
-import Spain from "../../assets/images/webp/Spain.webp";
-import Europe from "../../assets/images/webp/Europe.webp";
-import Thailand from "../../assets/images/webp/Thailand.webp";
+import UkFlag from "../../assets/images/webp/UkFlag.webp";
+import BurjKhlifa from "../../assets/images/webp/BurjKhlifa.webp";
+import RedFort from "../../assets/images/webp/RedFort.webp";
+import SpainMetropolis from "../../assets/images/webp/SpainMetropolis.webp";
+import EifileTower from "../../assets/images/webp/EifileTower.webp";
+import ThailandTample from "../../assets/images/webp/ThailandTample.webp";
 import Invert from "../../assets/images/webp/InvertedComa.webp";
 import Gogglegirl from "../../assets/images/webp/GogglesGirl.webp";
 import MaldivesIsland from "../../assets/images/webp/MaldivesIsland.webp";
@@ -12,32 +12,32 @@ import CliffMountainThailand from "../../assets/images/webp/CliffMountainThailan
 //=============================== Offer card =======================================//
 export const OfferCard = [
   {
-    CountryImg: Uk,
+    CountryImg: UkFlag,
     Placename: "united kingdom",
     Price: "$5.000",
   },
   {
-    CountryImg: Dubai,
+    CountryImg: BurjKhlifa,
     Placename: "Dubai",
     Price: "$8.000",
   },
   {
-    CountryImg: India,
+    CountryImg: RedFort,
     Placename: "India",
     Price: "$4000",
   },
   {
-    CountryImg: Spain,
+    CountryImg: SpainMetropolis,
     Placename: "Spain",
     Price: "$10.000",
   },
   {
-    CountryImg: Europe,
+    CountryImg: EifileTower,
     Placename: "Europe",
     Price: "$9.000",
   },
   {
-    CountryImg: Thailand,
+    CountryImg: ThailandTample,
     Placename: "Thailand",
     Price: "$7.000",
   },

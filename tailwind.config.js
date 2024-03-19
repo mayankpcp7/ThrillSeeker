@@ -27,7 +27,7 @@ module.exports = {
         headerbg: "url(./assets/images/webp/HeaderBg.webp)",
         map: "url(./assets/images/webp/OurNewsletterBg.webp)",
         blogbg: "url(./assets/images/webp/PlaneBg.webp)",
-
+        choosebg: "url(./assets/images/webp/ChooseBg.webp)",
       },
       boxShadow: {
         common: " 0px 0px 20px 0px #00000033",
