@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fc29d00.css",
-    "main.js": "/static/js/main.1eb59107.js",
+    "main.css": "/static/css/main.5676a28c.css",
+    "main.js": "/static/js/main.99bbf9e3.js",
     "static/js/453.c571e350.chunk.js": "/static/js/453.c571e350.chunk.js",
     "static/media/HeaderBg.webp": "/static/media/HeaderBg.0c713a1ab2a675034d9b.webp",
     "static/media/MaldivesIsland.webp": "/static/media/MaldivesIsland.540a8e8fb18f06d0512f.webp",
@@ -23,18 +23,22 @@
     "static/media/FooterLogo.webp": "/static/media/FooterLogo.b86ced56ce98c7a4cc88.webp",
     "static/media/AssuredExcellenceIcon.webp": "/static/media/AssuredExcellenceIcon.038a0626bd2abf26fcf6.webp",
     "static/media/InvertedComa.webp": "/static/media/InvertedComa.fde099149442185f3446.webp",
+    "static/media/OurNewsletterLeftEllipse.webp": "/static/media/OurNewsletterLeftEllipse.1726aeb461275e0b97bd.webp",
+    "static/media/OurNewsletterRightEllipse.webp": "/static/media/OurNewsletterRightEllipse.3c498e8cc83a184b5b22.webp",
     "static/media/PersonalizedServiceIcon.webp": "/static/media/PersonalizedServiceIcon.f43ff9532926f2e4be8f.webp",
     "static/media/InsightIcon.webp": "/static/media/InsightIcon.ef65f97c28da64a63dfc.webp",
-    "static/media/OurNewsletterLeftEllipse.webp": "/static/media/OurNewsletterLeftEllipse.e58e7db85249df409924.webp",
-    "static/media/OurNewsletterRightEllipse.webp": "/static/media/OurNewsletterRightEllipse.07c5360b876654cbeae7.webp",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/SelectIcon.svg": "/static/media/SelectIcon.12916f0859a0a8d61b38.svg",
     "index.html": "/index.html",
-    "main.8fc29d00.css.map": "/static/css/main.8fc29d00.css.map",
-    "main.1eb59107.js.map": "/static/js/main.1eb59107.js.map",
+    "main.5676a28c.css.map": "/static/css/main.5676a28c.css.map",
+    "main.99bbf9e3.js.map": "/static/js/main.99bbf9e3.js.map",
     "453.c571e350.chunk.js.map": "/static/js/453.c571e350.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fc29d00.css",
-    "static/js/main.1eb59107.js"
+    "static/css/main.5676a28c.css",
+    "static/js/main.99bbf9e3.js"
   ]
 }

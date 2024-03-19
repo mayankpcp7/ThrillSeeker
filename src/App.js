@@ -9,8 +9,14 @@ import TicketPackage from "./components/TicketPackage";
 import OurBlog from "./components/OurBlog";
 import PlaceCards from "./components/PlaceCards";
 import BackToTop from "./components/common/BackToTop";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    Aos.init({ once: true, disable: "mobile" });
+    Aos.refresh();
+  }, []);
   return (
     <>
       <div className="overflow-hidden">

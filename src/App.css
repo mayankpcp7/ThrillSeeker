@@ -55,6 +55,28 @@ select#flight {
   display: flex !important;
   justify-content: center !important;
 }
+.slick-dots li button:before {
+  font-size: 12px !important;
+  opacity: 1 !important;
+  color: #d4d4d4 !important;
+}
+.slick-dots li{
+  margin-left: -20px !important;
+  margin-right: -20px !important;
+}
+.slick-dots li.slick-active button::before {
+  opacity: 1 !important;
+  color: #fa6458 !important;
+  font-size: 15px !important;
+}
+.slick-dots{
+  padding-top: 20px !important;
+}
+.slick-slide{
+  display: flex !important;
+  justify-content: center !important;
+  padding-bottom: 10px !important;
+}
 
 /*========================= footer hover =======================*/
 .footer_link_hov:hover rect {
