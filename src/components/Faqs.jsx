@@ -49,7 +49,7 @@ const Faqs = () => {
                     <div className='pb-12 md:pb-[60px] lg:pb-20 xl:pb-[100px]' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
                         {/*================================== mapping in faqs ==========================================*/}
                         {FaqContent.map((faqitem, index) => (
-                            <div key={index} className="pb-4 sm:pb-6 lg:w-[922px]">
+                            <div key={index} className="pb-4 sm:pb-6 !max-w-[750px] !w-full lg:w-[922px]">
                                 <div className={`border border-solid border-[#cbcaca] rounded-[14px] md:rounded-[20px] px-4 md:px-[26px] faqbox bg-[#fefdfd] shadow-FaqShadow ${expandedIndex === index ? 'active' : ''}`}>
                                     <button
                                         type="button"
@@ -64,7 +64,7 @@ const Faqs = () => {
                                     <div id={`faqs-text-${index}`} role="region" aria-labelledby={`faqs-title-${index}`}
                                         className={`grid text-base overflow-hidden transition-all duration-300 ease-in-out ${expandedIndex === index ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                                         <div className="overflow-hidden">
-                                            <p className="pt-1 pb-[26px] text-tertiaryblack font-inter font-normal leading-[150%] md:ps-4 text-[14px] md:text-base max-w-[770px] ${expandedIndex === index ? 'text-color' : ''}">{faqitem.Content}</p>
+                                            <p className="pt-1 pb-[26px] text-tertiaryblack font-inter font-normal leading-[150%] md:ps-4 text-[14px] md:text-base max-w-[650px] lg:max-w-[770px] ${expandedIndex === index ? 'text-color' : ''}">{faqitem.Content}</p>
                                         </div>
                                     </div>
                                 </div>

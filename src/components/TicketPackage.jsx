@@ -95,7 +95,7 @@ const TicketPackage = () => {
           <div className="lg:w-6/12 w-full px-3 -mt-4" data-aos="zoom-in" data-aos-duration="1500">
             <Slider {...settings} className="">
               {TicketCard.map((ticket, index) => (
-                <div key={index} className="p-4">
+                <div key={index} className="p-2">
                   <div className="flex overflow-hidden ticketcard shadow-tourists max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
                     <div className="overflow-hidden rounded-[20px]">
                       <img
