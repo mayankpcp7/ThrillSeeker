@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5676a28c.css",
-    "main.js": "/static/js/main.99bbf9e3.js",
+    "main.css": "/static/css/main.c7c66dc2.css",
+    "main.js": "/static/js/main.2b794776.js",
     "static/js/453.c571e350.chunk.js": "/static/js/453.c571e350.chunk.js",
     "static/media/HeaderBg.webp": "/static/media/HeaderBg.0c713a1ab2a675034d9b.webp",
     "static/media/MaldivesIsland.webp": "/static/media/MaldivesIsland.540a8e8fb18f06d0512f.webp",
@@ -19,13 +19,13 @@
     "static/media/CliffMountainThailand.webp": "/static/media/CliffMountainThailand.5d3249351ba8a4ef2fe8.webp",
     "static/media/BackToTop.png": "/static/media/BackToTop.871fb8b035b142ade7f6.png",
     "static/media/NavLogo.svg": "/static/media/NavLogo.198eb8e12d5e9c8e5795b7e6c14da411.svg",
+    "static/media/HandIcon.svg": "/static/media/HandIcon.6477d084d5848501419c99587e7401e3.svg",
     "static/media/ChooseBg.webp": "/static/media/ChooseBg.c660ef48aad9ac9ad13b.webp",
     "static/media/FooterLogo.webp": "/static/media/FooterLogo.b86ced56ce98c7a4cc88.webp",
     "static/media/AssuredExcellenceIcon.webp": "/static/media/AssuredExcellenceIcon.038a0626bd2abf26fcf6.webp",
     "static/media/InvertedComa.webp": "/static/media/InvertedComa.fde099149442185f3446.webp",
     "static/media/OurNewsletterLeftEllipse.webp": "/static/media/OurNewsletterLeftEllipse.1726aeb461275e0b97bd.webp",
     "static/media/OurNewsletterRightEllipse.webp": "/static/media/OurNewsletterRightEllipse.3c498e8cc83a184b5b22.webp",
-    "static/media/PersonalizedServiceIcon.webp": "/static/media/PersonalizedServiceIcon.f43ff9532926f2e4be8f.webp",
     "static/media/InsightIcon.webp": "/static/media/InsightIcon.ef65f97c28da64a63dfc.webp",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -33,12 +33,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/SelectIcon.svg": "/static/media/SelectIcon.12916f0859a0a8d61b38.svg",
     "index.html": "/index.html",
-    "main.5676a28c.css.map": "/static/css/main.5676a28c.css.map",
-    "main.99bbf9e3.js.map": "/static/js/main.99bbf9e3.js.map",
+    "main.c7c66dc2.css.map": "/static/css/main.c7c66dc2.css.map",
+    "main.2b794776.js.map": "/static/js/main.2b794776.js.map",
     "453.c571e350.chunk.js.map": "/static/js/453.c571e350.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5676a28c.css",
-    "static/js/main.99bbf9e3.js"
+    "static/css/main.c7c66dc2.css",
+    "static/js/main.2b794776.js"
   ]
 }
