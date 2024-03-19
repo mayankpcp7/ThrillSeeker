@@ -22,7 +22,7 @@ const PlaceCards = () => {
 
     return (
         <div className='max-w-[1164px] mx-auto px-4 md:px-3'>
-            <div className='gap-6 flex items-center justify-center flex-wrap -mt-32 2xl:-mt-28 md:pb-[30px]'>
+            <div className='gap-6 flex items-center justify-center flex-wrap -mt-32 2xl:-mt-28 xl:pb-[30px]'>
                 {/*====================================== Cards ====================================*/}
                 {DestinatgionCards.map((object, index) => (
                     <div key={index}>
