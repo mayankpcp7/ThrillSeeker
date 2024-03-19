@@ -5,7 +5,7 @@ import Assured from "../assets/images/webp/AssuredExcellenceIcon.webp";
 const ChooseUs = () => {
   return (
     <>
-      <section className="bg_choose pt-10 pb-9 bg-cover bg-center" id="aboutus">
+      <section className="bg_choose xl:pt-10 xl:pb-9 lg:py-[100px] md:py-[80px] sm:py-[60px] py-[48px] bg-cover bg-center" id="aboutus">
         <div className="max-w-[1164px] mx-auto md:px-3 px-4">
           <h2 className="text-center font-inter text-[30px] !leading-[121%] text-white sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold" data-aos="zoom-in" data-aos-duration="1500">Why Choose Us</h2>
           <p className="text-center !leading-[150%] font-inter text-base text-white max-w-[568px] mx-auto pt-2 lg:pt-4" data-aos="zoom-in" data-aos-duration="1500">

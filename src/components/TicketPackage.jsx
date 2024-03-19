@@ -39,12 +39,30 @@ const TicketPackage = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+
   };
 
   return (
     <div className="py-12 md:py-[60px] lg:py-[80px] xl:pt-[100px] xl:pb-[121px]">
       <div className="max-w-[1136px] mx-auto px-4 md:px-3 ">
-        <div className="flex flex-wrap gap-8 lg:gap-0 justify-center lg:justify-start -mx-3">
+        <div className="flex lg:flex-row flex-wrap gap-14 items-center lg:items-start lg:gap-0 justify-center flex-col-reverse lg:justify-start -mx-3">
           <div className="w-full sm:w-10/12 lg:w-6/12 px-3">
             <h2 className="font-inter lg:text-start text-center text-[30px] text-black sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl !leading-[121%] font-bold" data-aos="fade-right" data-aos-duration="1500">
               Our Ticket Package
@@ -96,7 +114,7 @@ const TicketPackage = () => {
             <Slider {...settings} className="">
               {TicketCard.map((ticket, index) => (
                 <div key={index} className="p-2">
-                  <div className="flex overflow-hidden ticketcard shadow-tourists max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
+                  <div className="flex overflow-hidden ticketcard shadow-tourists max-w-[350px] md:max-w-[400px] lg:max-w-[526px] flex-col ticketcard p-3 sm:p-6 rounded-[20px] items-center">
                     <div className="overflow-hidden rounded-[20px]">
                       <img
                         className="max-w-[478px] transition-all duration-300 w-full ticketimg"
@@ -107,10 +125,10 @@ const TicketPackage = () => {
                     <h5 className="text-black font-inter text-xl sm:text-2xl mt-5 mb-2 !leading-[121%] font-medium capitalize">
                       {ticket.TicketType}
                     </h5>
-                    <p className="text-center font-inter text-sm sm:text-base text-primaryblack max-w-[476px]">
+                    <p className="text-center font-inter text-sm md:text-base text-primaryblack max-w-[476px]">
                       {ticket.About}
                     </p>
-                    <h6 className="text-black text-lg sm:text-xl font-inter mt-4 font-medium !leading-[150%]">
+                    <h6 className="text-black text-lg text-center sm:text-xl font-inter mt-4 font-medium !leading-[150%]">
                       {ticket.Price}
                     </h6>
                     <a
