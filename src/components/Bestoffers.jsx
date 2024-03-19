@@ -18,8 +18,8 @@ const Bestoffers = () => {
           <div className="flex flex-wrap justify-center mt-4 -mx-3">
             {OfferCard.map((offer, index) => {
               return (
-                <div className="lg:w-4/12 sm:w-6/12 w-10/12 px-3" data-aos="zoom-in" data-aos-duration="1500" key={index}>
-                  <div className="flex flex-col offer_card border-b-4 lg:mt-9 mt-6 border-b-white rounded-[16px]  hover:border-b-4 hover:border-white hover:border-b-[#FC3C60]  transition-all duration-300  overflow-hidden">
+                <div className="lg:w-4/12 sm:w-5/12 w-full px-3" data-aos="zoom-in" data-aos-duration="1500" key={index}>
+                  <div className="flex flex-col offer_card border-b-4  mx-auto sm:mx-0 lg:mt-9 mt-6 border-b-white rounded-[16px] max-w-[370px] lg:max-w-full  hover:border-b-4 hover:border-white hover:border-b-[#FC3C60]  transition-all duration-300  overflow-hidden">
                     <div className="lg:h-[229px] overflow-hidden">
                       <img
                         className="rounded-t-[16px] transition-all duration-300 scale_105 lg:max-w-[364px]"

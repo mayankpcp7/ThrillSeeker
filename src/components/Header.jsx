@@ -69,14 +69,11 @@ const Header = () => {
                 <option className="font-inter text-grey text-base" value="DE">19/3/24</option>
               </select>
               {/*======================================= select flight ===========================================*/}
-              <select id="flight" class="bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-4 w-[190px] lg:w-[174px] xl:w-[220px] h-[51px] relative">
-                <option className="font-inter text-grey text-base">Your Flight</option>
-                <option className="font-inter text-grey text-base" value="US">Indigo</option>
-                <option className="font-inter text-grey text-base" value="CA">kingfisher</option>
-                <option className="font-inter text-grey text-base" value="FR">etihad</option>
-              </select>
+              <div id="flight" class="bg-white border flex items-center justify-start cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-4 w-[190px] lg:w-[174px] xl:w-[220px] h-[51px] relative">
+                <p className="font-inter text-grey text-center text-base">Your Flight</p>
+              </div>
 
-              <button class="rounded-[10px] flex items-center font-semibold font-inter h-[59px] w-[121px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
+              <button class="rounded-[10px] flex items-center font-semibold font-inter lg:h-[59px] h-[45px] w-[109px] lg:w-[121px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                 <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                 <span class="relative text-white text-center px-6 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">Find Now</span>
               </button>
