@@ -1,6 +1,6 @@
 import React from "react";
 import InsightIcon from "../assets/images/webp/InsightIcon.webp";
-import PersonalService from "../assets/images/webp/PersonalizedServiceIcon.webp";
+import PersonalService from "../assets/images/svg/HandIcon.svg";
 import Assured from "../assets/images/webp/AssuredExcellenceIcon.webp";
 const ChooseUs = () => {
   return (
@@ -12,7 +12,7 @@ const ChooseUs = () => {
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           <div className="flex flex-wrap justify-center  mt-10 -mx-3">
             {/*============================ ChooseUs Cards ==================================*/}
-            <div className="w-10/12 sm:w-6/12 md:w-4/12 p-3" data-aos="zoom-in" data-aos-duration="1500">
+            <div className="w-10/12 sm:w-6/12 md:w-4/12 p-3 lg:py-0" data-aos="zoom-in" data-aos-duration="1500">
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 p-3 lg:p-6 choose_card items-center justify-center h-full">
                 <img className="h-[50px] w-[50px]" src={InsightIcon} alt="InsightIcon" />
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">Expert Insight</h5>

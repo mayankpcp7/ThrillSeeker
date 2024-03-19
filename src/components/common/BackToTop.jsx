@@ -29,7 +29,7 @@ const BackToTop = () => {
     return (
         <>
             {/* Back-to-top button */}
-            <span onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="fixed bottom-[3%] right-[2%] z-10 hidden h-8 w-8 md:h-10 md:w-10 lg:h-14
+            <span onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="fixed bottom-[3%] right-[3%] z-10 hidden h-8 w-8 md:h-10 md:w-10 lg:h-14
              lg:w-14 cursor-pointer hover:scale-90 duration-300" ref={scrollTop}> <img className='w-100 d-flex' src={topUp} alt="topUp" /></span>
         </>
     );

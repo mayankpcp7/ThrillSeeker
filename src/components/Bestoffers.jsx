@@ -3,7 +3,7 @@ import { OfferCard } from "./common/Helper";
 const Bestoffers = () => {
   return (
     <>
-      <section
+      <div
         className="xl:pt-[150px] lg:py-25 md:py-20 sm:py-15 py-12 xl:pb-[109px]"
         id="trip"
       >
@@ -18,8 +18,8 @@ const Bestoffers = () => {
           <div className="flex flex-wrap justify-center mt-4 -mx-3">
             {OfferCard.map((offer, index) => {
               return (
-                <div className="lg:w-4/12 sm:w-6/12 w-10/12 p-3" data-aos="zoom-in" data-aos-duration="1500" key={index}>
-                  <div className="flex flex-col offer_card border-b-4 lg:mt-6 border-b-white rounded-[16px]  hover:border-b-4 hover:border-white hover:border-b-[#FC3C60]  transition-all duration-300  overflow-hidden">
+                <div className="lg:w-4/12 sm:w-6/12 w-10/12 px-3" data-aos="zoom-in" data-aos-duration="1500" key={index}>
+                  <div className="flex flex-col offer_card border-b-4 lg:mt-9 mt-6 border-b-white rounded-[16px]  hover:border-b-4 hover:border-white hover:border-b-[#FC3C60]  transition-all duration-300  overflow-hidden">
                     <div className="lg:h-[229px] overflow-hidden">
                       <img
                         className="rounded-t-[16px] transition-all duration-300 scale_105 lg:max-w-[364px]"
@@ -41,7 +41,7 @@ const Bestoffers = () => {
             })}
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

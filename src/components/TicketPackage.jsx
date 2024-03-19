@@ -42,14 +42,14 @@ const TicketPackage = () => {
   };
 
   return (
-    <section className="py-12 md:py-[60px] lg:py-[80px] xl:pt-[100px] xl:pb-[121px]">
+    <div className="py-12 md:py-[60px] lg:py-[80px] xl:pt-[100px] xl:pb-[121px]">
       <div className="max-w-[1136px] mx-auto px-4 md:px-3 ">
         <div className="flex flex-wrap gap-8 lg:gap-0 justify-center lg:justify-start -mx-3">
           <div className="w-full sm:w-10/12 lg:w-6/12 px-3">
             <h2 className="font-inter lg:text-start text-center text-[30px] text-black sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl !leading-[121%] font-bold" data-aos="fade-right" data-aos-duration="1500">
               Our Ticket Package
             </h2>
-            <p className="pt-4 lg:text-start lg:max-w-[490px] text-primaryblack font-inter" data-aos="fade-right" data-aos-duration="1500">
+            <p className="pt-4 text-center lg:text-start  lg:max-w-[490px] text-primaryblack font-inter" data-aos="fade-right" data-aos-duration="1500">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
@@ -126,7 +126,7 @@ const TicketPackage = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
