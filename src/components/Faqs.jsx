@@ -9,7 +9,7 @@ const Faqs = () => {
         setExpandedIndex(expandedIndex === index ? null : index);
     };
     return (
-        <div className='max-w-[1440px] mx-auto relative mt-12 md:mt-[60px] lg:mt-20 xl:mt-[100px]' id='FAQ'>
+        <div className='max-w-[1440px] mx-auto relative mt-12 md:mt-[60px] lg:mt-20 xl:mt-[100px]' id='faq'>
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
                 <h2 className='font-inter text-[30px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-5xl font-bold flex items-center justify-center text-center leading-[121%] mb-4'>Frequently Asked Questions</h2>
                 <p className='font-inter text-[14px] sm:text-base font-normal mx-auto max-w-[557px] text-center text-primaryblack leading-[150%] mb-4 sm:mb-6 md:mb-8 lg:mb-10'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>

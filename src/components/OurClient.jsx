@@ -35,7 +35,7 @@ const OurClient = () => {
   };
 
   return (
-    <div className="pt-12 md:pt-[60px] lg:pt-20 xl:pt-[100px]">
+    <div className="pt-12 md:pt-[60px] lg:pt-20 xl:pt-[100px]"id="client">
       <div className="bg-[#fffcf6]">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[1164px] mx-auto px-4 md:px-3 py-6 sm:py-10 md:py-12 lg:py-[55px]">

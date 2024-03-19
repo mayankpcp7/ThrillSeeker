@@ -108,7 +108,7 @@ const Nav = () => {
                 <li>
                   <a
                     className="font-inter text-[20px] sm:text-[24px] md:text-base transition-all duration-300 hover: hover_stroke2 text-secondaryblack opacity-70 hover:opacity-100"
-                    href="#destination"
+                    href="#faq"
                   >
                     FAQ’s
                   </a>
