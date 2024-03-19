@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurBlog = () => {
     return (
-        <div className='bg-BlogImg bg-cover bg-center bg-no-repeat'>
+        <div className='bg-blogbg bg-cover bg-center bg-no-repeat'>
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] mx-auto px-4 md:px-3'>
                     <div className='pt-12 sm:pt-16 md:pt-20 lg:pt-[97px] pb-[150px] md:pb-[216px]'>

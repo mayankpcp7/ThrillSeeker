@@ -26,14 +26,14 @@ module.exports = {
       backgroundImage: {
         headerbg: "url(./assets/images/webp/HeaderBg.webp)",
         map: "url(./assets/images/webp/OurNewsletterBg.webp)",
-        BlogImg: "url(./assets/images/webp/PlaneBg.webp)",
-        
+        blogbg: "url(./assets/images/webp/PlaneBg.webp)",
+
       },
       boxShadow: {
-        CommonShadow: " 0px 0px 20px 0px #00000033",
-        InputBoxShadow: "0px 0px 40px 0px #0000001F",
-        TouristImageShadow: "0px 0px 12px 0px #00000033",
-        headershadow:" 0px 9.005355834960938px 45.02677536010742px 0px #0000001a",
+        common: " 0px 0px 20px 0px #00000033",
+        inputbox: "0px 0px 40px 0px #0000001F",
+        tourists: "0px 0px 12px 0px #00000033",
+        selectbox: " 0px 9.005355834960938px 45.02677536010742px 0px #0000001a",
       },
     },
   },
