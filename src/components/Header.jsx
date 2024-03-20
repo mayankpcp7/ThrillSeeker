@@ -12,7 +12,7 @@ const Header = () => {
       } else {
         clearInterval(interval);
       }
-    }, 1);
+    },);
     return () => {
       clearInterval(interval);
     };
@@ -24,7 +24,7 @@ const Header = () => {
         {/*===== Nav ======*/}
         <Nav />
 
-        <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[90px] sm:mt-[120px]  lg:mt-[161px]" id="home" data-aos="fade-up"
+        <main className="max-w-[1164px] mx-auto px-4 md:px-3 mt-[120px]  lg:mt-[161px]" id="home" data-aos="fade-up"
           data-aos-duration="1500">
           <h1 className=" text-[38px] sm:text-[55px] lg:text-6xl font-inter text-center sm:text-start text-white font-extrabold leading-[120%] max-w-[582px]">Explore The World Around You</h1>
           <p className="pt-1 sm:pt-4 sm:text-base text-sm text-center sm:text-start text-white font-inter mx-auto sm:mx-0 max-w-[461px] sm:max-w-[550px] lg:max-w-[568px]">
@@ -62,8 +62,6 @@ const Header = () => {
                 <option value="FR">France</option>
                 <option value="DE">Germany</option>
               </select>
-
-
               {/*======================================= select Dates ===========================================*/}
               <label for="date" class="sr-only">Select a date</label>
               <select id="date" class="appearance-none bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
@@ -73,20 +71,16 @@ const Header = () => {
                 <option value="18/3/24">18/3/24</option>
                 <option value="19/3/24">19/3/24</option>
               </select>
-
               {/*======================================= select flight ===========================================*/}
               <div id="flight" class="bg-white border flex items-center justify-start cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
                 <p className="font-inter text-grey text-center text-sm lg:text-base">Your Flight</p>
               </div>
-
-              <button class="rounded-[10px] flex items-center justify-center font-semibold font-inter lg:h-[59px] h-[45px] w-[109px] lg:w-[121px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
+              <button class="rounded-[10px] flex items-center justify-center font-semibold font-inter lg:h-[59px] h-[45px] w-[157px] lg:w-[121px] overflow-hidden relative group cursor-pointer border-2 text-base border-extralightred bg-extralightred text-extralightred">
                 <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-white top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                 <span class="relative text-white text-center px-6 whitespace-nowrap transition duration-300 group-hover:text-extralightred ease">Find Now</span>
               </button>
-
             </div>
           </div>
-
         </div>
       </div>
     </>
