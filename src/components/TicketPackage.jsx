@@ -8,7 +8,7 @@ const TicketPackage = () => {
   const [custemor, setcustemor] = useState(0);
   const [dailycustemor, setdailycustemor] = useState(0);
   const [teammember, setTeamMember] = useState(0);
-
+  //=================================== Counter =================================//
   useEffect(() => {
     const intervals = [
       setInterval(() => {
@@ -32,7 +32,7 @@ const TicketPackage = () => {
       intervals.forEach(clearInterval);
     };
   }, [custemor, dailycustemor, teammember]);
-
+  //================================ Slick Slider ==============================//
   const settings = {
     dots: true,
     infinite: true,
@@ -110,7 +110,9 @@ const TicketPackage = () => {
               </div>
             </div>
           </div>
+          {/*======================== Main div of slider =============================*/}
           <div className="lg:w-6/12 w-full px-3 -mt-4" data-aos="zoom-in" data-aos-duration="1500">
+            {/*===================== Slider with map =======================*/}
             <Slider {...settings} className="">
               {TicketCard.map((ticket, index) => (
                 <div key={index} className="p-2">
@@ -128,20 +130,15 @@ const TicketPackage = () => {
                     <p className="text-center font-inter text-sm md:text-base text-primaryblack max-w-[476px]">
                       {ticket.About}
                     </p>
-                    <h6 className="text-black text-lg text-center sm:text-xl font-inter mt-4 font-medium !leading-[150%]">
-                      {ticket.Price}
-                    </h6>
-                    <a
-                      className="mt-4 sm:mt-6 text-base leading-[121%] hover:text-black transition-all duration-300 font-semibold underline font-inter text-extralightred"
-                      href="#BookNow"
-                    >
-                      {ticket.Link}
-                    </a>
+                    <h6 className="text-black text-lg text-center sm:text-xl font-inter mt-4 font-medium !leading-[150%]">{ticket.Price}</h6>
+                    <a aria-label="ticket" className="mt-4 sm:mt-6 text-base leading-[121%] hover:text-black transition-all duration-300 font-semibold underline font-inter text-extralightred"
+                      href="#BookNow">{ticket.Link}</a>
                   </div>
                 </div>
               ))}
             </Slider>
           </div>
+
         </div>
       </div>
     </div>
