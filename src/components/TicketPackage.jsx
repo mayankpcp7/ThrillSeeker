@@ -124,9 +124,9 @@ const TicketPackage = () => {
                         alt="girlimg"
                       />
                     </div>
-                    <h5 className="text-black font-inter text-xl sm:text-2xl mt-5 mb-2 !leading-[121%] font-medium capitalize">
+                    <p className="text-black font-inter text-xl sm:text-2xl mt-5 mb-2 !leading-[121%] font-medium capitalize">
                       {ticket.TicketType}
-                    </h5>
+                    </p>
                     <p className="text-center font-inter text-sm md:text-base text-primaryblack max-w-[476px]">
                       {ticket.About}
                     </p>
