@@ -53,15 +53,16 @@ const Header = () => {
             </div>
             {/*======================================= select Country ===========================================*/}
             <div className="flex sm:flex-row flex-col max-w-[360px] mx-auto sm:max-w-full  gap-[15px] items-center lg:justify-start justify-center flex-wrap mt-6">
-              <select id="countries" class="bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
+              <select id="arrow" class="bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
                 <option className="font-inter text-grey text-sm lg:text-base">Your Country</option>
+                <option className="font-inter text-grey text-sm lg:text-base" value="US">India</option>
                 <option className="font-inter text-grey text-sm lg:text-base" value="US">United States</option>
                 <option className="font-inter text-grey text-sm lg:text-base" value="CA">Canada</option>
                 <option className="font-inter text-grey text-sm lg:text-base" value="FR">France</option>
                 <option className="font-inter text-grey text-sm lg:text-base" value="DE">Germany</option>
               </select>
               {/*======================================= select Dates ===========================================*/}
-              <select id="countries" class="bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
+              <select id="arrow" class="bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
                 <option className="font-inter text-grey text-sm lg:text-base">Select Date</option>
                 <option className="font-inter text-grey text-sm lg:text-base" value="US">16/3/24</option>
                 <option className="font-inter text-grey text-sm lg:text-base" value="CA">17/3/24</option>
