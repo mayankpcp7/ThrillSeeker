@@ -24,6 +24,7 @@ const Nav = () => {
             <div className="flex items-center">
               <img className="relative z-[100] max-w-[150px] lg:max-w-[220px] cursor-pointer" src={Logo} alt="Logo" />
             </div>
+
             {/*============================================ humburger icon ==========================================*/}
             <div onClick={showUl} className=" relative z-[100]  md:hidden">
               <h3 className="text-lightred text-3xl sm:text-4xl">{head ? <BiMenuAltLeft /> : <RxCross1 />}</h3>

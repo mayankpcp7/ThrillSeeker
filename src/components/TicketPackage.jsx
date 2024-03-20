@@ -85,25 +85,25 @@ const TicketPackage = () => {
             </button>
             <div className="flex justify-center lg:justify-start gap-5 sm:gap-0 flex-wrap mt-6">
               <div className="flex flex-col items-center sm:items-start sm:pe-6 sm:border-r border-[#cccc]" data-aos="fade-in" data-aos-duration="1500">
-                <h4 className="text-black font-inter !leading-[169%] font-semibold text-2xl sm:text-[30px] lg:text-4xl">
+                <p className="text-black font-inter !leading-[169%] font-semibold text-2xl sm:text-[30px] lg:text-4xl">
                   {custemor}+
-                </h4>
+                </p>
                 <p className="text-primaryblack font-inter text-base !leading-[121%] pt-1">
                   Happy customer
                 </p>
               </div>
               <div className="flex flex-col items-center sm:items-start sm:px-6 sm:border-r border-[#cccc]" data-aos="fade-in" data-aos-duration="1500">
-                <h4 className="text-black font-inter !leading-[169%] font-semibold text-2xl sm:text-[30px] lg:text-4xl">
+                <p className="text-black font-inter !leading-[169%] font-semibold text-2xl sm:text-[30px] lg:text-4xl">
                   {dailycustemor}+
-                </h4>
+                </p>
                 <p className="text-primaryblack font-inter text-base !leading-[121%] pt-1">
                   Daily customer
                 </p>
               </div>
               <div className="flex flex-col items-center sm:items-start  sm:ps-6" data-aos="fade-in" data-aos-duration="1500">
-                <h4 className="text-black font-inter !leading-[169%] font-semibold text-2xl sm:text-[30px] lg:text-4xl">
+                <p className="text-black font-inter !leading-[169%] font-semibold text-2xl sm:text-[30px] lg:text-4xl">
                   {teammember}+
-                </h4>
+                </p>
                 <p className="text-primaryblack font-inter text-base !leading-[121%] pt-1">
                   Team member
                 </p>

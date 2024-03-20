@@ -11,7 +11,7 @@ const Footer = () => {
 
                     <div className='pt-[110px] md:pt-[125px] lg:pt-[158.84px] pb-6 sm:pb-8 md:pb-11 lg:pb-[58.58px]'>
                         {/*======================= Footer-logo =================================*/}
-                        <a href="#logo" className="flex items-end mx-auto max-w-[282px]">
+                        <a aria-label='Footer logo' href="#logo" className="flex items-end mx-auto max-w-[282px]">
                             <img className="max-w-[95px]" src={FooterLogo} alt="FooterLogo" />
                             <span className="flex flex-col -ms-8 mb-2">
                                 <span className="font-barlow text-lightred font-semibold leading-[120%] text-[27px]">ThrillSeeker <span className="text-yellow">Tours</span></span>
@@ -21,10 +21,10 @@ const Footer = () => {
                         <p className="font-inter text-[14px] sm:text-base leading-[150%] text-[#b2b2b2] max-w-[494px] mx-auto mt-4 text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
                         {/*========================== footer-links ============================*/}
                         <ul className="flex items-center justify-center flex-wrap mt-5 md:mt-6 lg:mt-[30px] gap-6 sm:gap-[30px]">
-                            <li><a href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Home</a></li>
-                            <li><a href="#aboutus" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">About Us</a></li>
-                            <li><a href="#discover" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Discover</a></li>
-                            <li><a href="#trip" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Trip Plan</a></li>
+                            <li><a aria-label='home' href="#home" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Home</a></li>
+                            <li><a aria-label='Why choose us' href="#aboutus" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">About Us</a></li>
+                            <li><a aria-label='What our client says' href="#discover" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Discover</a></li>
+                            <li><a aria-label='Best offers' href="#trip" className="font-inter font-normal text-base leading-[121%] text-white hover:text-lightred duration-300">Trip Plan</a></li>
                         </ul>
                         {/*========================== footer-icons ============================*/}
                         <div className="flex items-center justify-center flex-wrap gap-5 sm:gap-6 mt-5 md:mt-6 lg:mt-8 xl:mt-10">
