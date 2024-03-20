@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb4e42dd.css",
-    "main.js": "/static/js/main.17339aa0.js",
+    "main.css": "/static/css/main.b1456a29.css",
+    "main.js": "/static/js/main.ad9e9d86.js",
     "static/js/453.c571e350.chunk.js": "/static/js/453.c571e350.chunk.js",
     "static/media/HeaderBg.webp": "/static/media/HeaderBg.0c713a1ab2a675034d9b.webp",
     "static/media/MaldivesIsland.webp": "/static/media/MaldivesIsland.540a8e8fb18f06d0512f.webp",
     "static/media/FemaleTourist.webp": "/static/media/FemaleTourist.b9384f2acdab2cc41367.webp",
-    "static/media/Dubai.webp": "/static/media/Dubai.11e17e69c638aebbe5a3.webp",
-    "static/media/Spain.webp": "/static/media/Spain.ef7f8ae9c8e111883923.webp",
+    "static/media/BurjKhlifa.webp": "/static/media/BurjKhlifa.11e17e69c638aebbe5a3.webp",
+    "static/media/SpainMetropolis.webp": "/static/media/SpainMetropolis.ef7f8ae9c8e111883923.webp",
     "static/media/KarbiBeachThailand.webp": "/static/media/KarbiBeachThailand.4465645bdc5ee53fc5b8.webp",
-    "static/media/Uk.webp": "/static/media/Uk.9744b903ced506cc7b12.webp",
-    "static/media/Thailand.webp": "/static/media/Thailand.697362b29057549e5c4e.webp",
-    "static/media/India.webp": "/static/media/India.9cabd5ce4ab27fa5e0be.webp",
+    "static/media/UkFlag.webp": "/static/media/UkFlag.9744b903ced506cc7b12.webp",
+    "static/media/ThailandTample.webp": "/static/media/ThailandTample.697362b29057549e5c4e.webp",
+    "static/media/RedFort.webp": "/static/media/RedFort.9cabd5ce4ab27fa5e0be.webp",
     "static/media/GogglesGirl.webp": "/static/media/GogglesGirl.45ec97cb109c3330e394.webp",
     "static/media/PlaneBg.webp": "/static/media/PlaneBg.1e9f994f9c9b3ec2c3e1.webp",
     "static/media/OurNewsletterBg.webp": "/static/media/OurNewsletterBg.686bda6441630e4dc2c7.webp",
-    "static/media/Europe.webp": "/static/media/Europe.f2c7989abac6fb3e2991.webp",
+    "static/media/EifileTower.webp": "/static/media/EifileTower.f2c7989abac6fb3e2991.webp",
     "static/media/CliffMountainThailand.webp": "/static/media/CliffMountainThailand.5d3249351ba8a4ef2fe8.webp",
     "static/media/BackToTop.png": "/static/media/BackToTop.871fb8b035b142ade7f6.png",
     "static/media/NavLogo.svg": "/static/media/NavLogo.198eb8e12d5e9c8e5795b7e6c14da411.svg",
@@ -33,12 +33,12 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/SelectIcon.svg": "/static/media/SelectIcon.12916f0859a0a8d61b38.svg",
-    "main.bb4e42dd.css.map": "/static/css/main.bb4e42dd.css.map",
-    "main.17339aa0.js.map": "/static/js/main.17339aa0.js.map",
+    "main.b1456a29.css.map": "/static/css/main.b1456a29.css.map",
+    "main.ad9e9d86.js.map": "/static/js/main.ad9e9d86.js.map",
     "453.c571e350.chunk.js.map": "/static/js/453.c571e350.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb4e42dd.css",
-    "static/js/main.17339aa0.js"
+    "static/css/main.b1456a29.css",
+    "static/js/main.ad9e9d86.js"
   ]
 }
