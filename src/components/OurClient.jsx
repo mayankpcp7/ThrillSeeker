@@ -46,7 +46,7 @@ const OurClient = () => {
             <div className="flex items-center lg:flex-row flex-col justify-end gap-3 sm:gap-5 md:gap-7 xl:pt-5">
               {/*============================== Clients Img ==============================*/}
               <div className="max-w-[538px] w-full overflow-hidden border !border-none rounded-[20px] cursor-pointer shadow-tourists" data-aos="zoom-in" data-aos-duration="1500">
-                <img className="hover:scale-[1.05] duration-300 max-w-[538px] w-full" src={FemaleTourist} alt="FemaleTourist"  />
+                <img className="hover:scale-[1.05] duration-300 max-w-[538px] w-full" src={FemaleTourist} alt="FemaleTourist" />
               </div>
               {/*============================== About Clients Information ==============================*/}
               <div className="w-full !max-w-[558px]">
@@ -82,8 +82,8 @@ const OurClient = () => {
                 </Swiper>
                 {/*============================= Slider Arrow ============================*/}
                 <div className="mt-3 sm:mt-4 md:mt-5 lg:mt-6 xl:mt-8 gap-3 flex">
-                  <button className="z-[10]" onClick={prevarrow}><SliderPrevbtn /> </button>
-                  <button className=" z-[10]" onClick={nextarrow}><SliderNextbtn /> </button>
+                  <button className="z-[10]" onClick={prevarrow} aria-label="Prev Slide"><SliderPrevbtn /> </button>
+                  <button className=" z-[10]" onClick={nextarrow} aria-label="Next Slide"><SliderNextbtn /> </button>
                 </div>
 
               </div>

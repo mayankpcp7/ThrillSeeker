@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +19,7 @@ html {
 }
 
 /*========================  Hide the default arrow  =========================*/
-select#countries {
+select#arrow {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -45,6 +46,7 @@ select#flight {
 .choose_card:hover .text_black {
   color: black;
 }
+
 .choose_card:hover .choose_icons {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
