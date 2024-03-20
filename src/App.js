@@ -13,12 +13,15 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 function App() {
+  // --------------------------Aos----------------------------------
   useEffect(() => {
     Aos.init({ once: true, disable: "mobile" });
     Aos.refresh();
   }, []);
+  // ----------------------Aos----------------------------------
   return (
     <>
+    
       <div className="overflow-hidden">
         <Header />
         <Bestoffers />

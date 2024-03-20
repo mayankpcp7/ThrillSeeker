@@ -14,7 +14,7 @@ const ChooseUs = () => {
             {/*============================ ChooseUs Cards ==================================*/}
             <div className="w-10/12 sm:w-6/12 md:w-4/12 p-3 lg:py-0" data-aos="zoom-in" data-aos-duration="1500">
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 p-3 lg:p-6 choose_card items-center justify-center h-full">
-                <img className="h-[50px] w-[50px]" src={InsightIcon} alt="InsightIcon" />
+                <img className="h-[50px] w-[50px] choose_icons" src={InsightIcon} alt="InsightIcon" />
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">Expert Insight</h5>
                 <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-normal font-inter text-center max-w-[316px] text-sm lg:text-base">
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
@@ -23,7 +23,7 @@ const ChooseUs = () => {
 
             <div className="w-10/12 sm:w-6/12 md:w-4/12 p-3" data-aos="zoom-in" data-aos-duration="1500">
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 lg:p-6 p-3 choose_card items-center justify-center h-full">
-                <img className="h-[50px] w-[50px]" src={PersonalService} alt="PersonalService" />
+                <img className="h-[50px] w-[50px] choose_icons" src={PersonalService} alt="PersonalService" />
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">Personalized Service</h5>
                 <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-normal font-inter text-center max-w-[316px] text-sm lg:text-base">
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum.</p>
@@ -32,7 +32,7 @@ const ChooseUs = () => {
 
             <div className="w-10/12 sm:w-6/12 md:w-4/12 p-3" data-aos="zoom-in" data-aos-duration="1500">
               <div className="flex flex-col hover:bg-yellow rounded-[16px] sm:max-w-[364px] transition-all duration-300 p-3 lg:p-6 choose_card items-center justify-center h-full">
-                <img className="h-[50px] w-[50px]" src={Assured} alt="Assured" />
+                <img className="h-[50px] w-[50px] choose_icons" src={Assured} alt="Assured" />
                 <h5 className="text-white text-lg lg:text-2xl text_black font-medium pt-2 lg:pt-0 font-inter mt-2 lg:mt-4">Assured Excellence</h5>
                 <p className="pt-2 lg:pt-3 text-white opacity-70 text_black font-normal font-inter text-center max-w-[316px] text-sm lg:text-base">
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum.</p>

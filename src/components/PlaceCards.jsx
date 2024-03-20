@@ -26,7 +26,7 @@ const PlaceCards = () => {
                 {/*====================================== Cards ====================================*/}
                 {DestinatgionCards.map((object, index) => (
                     <div key={index}>
-                        <div className={`bg-white rounded-[12px] cursor-pointer shadow-common ${selectedCard === index ? 'min-h-[535px] max-w-[370px] lg:max-w-[410px] xl:max-w-[558px] p-4 md:p-5' : 'max-w-[267px] p-4'}`} data-aos="zoom-in" data-aos-duration="1500">
+                        <div className={`bg-white rounded-[12px] cursor-pointer shadow-common ${selectedCard === index ? 'min-h-[535px] max-w-[370px] lg:max-w-[410px] xl:max-w-[558px] p-4 md:p-5' : 'max-w-[267px] p-4'}`}>
                             <img className={`w-full ${selectedCard === index ? 'max-w-[518px] h-[265px]' : 'max-w-[235px] h-[169px]'}`} src={object.DestinationImages} alt="DestinationImages" />
                             <h3 className={`font-inter text-black !leading-[121%] ${selectedCard === index ? 'text-xl md:text-[22px] lg:text-2xl font-medium mt-5' : 'text-base font-semibold mt-4'}`}>{object.Heading}</h3>
 
