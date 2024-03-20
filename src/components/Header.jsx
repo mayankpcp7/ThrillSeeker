@@ -42,7 +42,7 @@ const Header = () => {
           {/*==================================== counter box div ====================================*/}
           <div className="flex bg-yellow flex-col rounded-[10px] w-[235px] h-[150px] lg:h-[164px] sm:justify-center px-4 py-5 lg:py-[42px]" data-aos="fade-right" data-aos-duration="1500">
 
-            <h3 className="font-inter font-bold text-white text-[34px]">{counter}K+</h3>
+            <p className="font-inter font-bold text-white text-[34px]">{counter}K+</p>
             <p className="text-white text-base font-inter font-medium pt-3 lg:pt-5 whitespace-nowrap">Join Our Happy Customer</p>
           </div>
           {/*========================================= Choose Trip and Plan =================================*/}

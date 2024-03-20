@@ -28,9 +28,9 @@ const Bestoffers = () => {
                       />
                     </div>
                     <div className="flex overflow-hidden border border-t-0 rounded-b-[16px] border_none border-[#cccc] justify-between px-4 sm:pt-5 pt-3 pb-4 sm:pb-6">
-                      <h4 className="text-black leading-[121%] font-inter text-xl font-medium">
+                      <p className="text-black leading-[121%] font-inter text-xl font-medium">
                         {offer.Placename}
-                      </h4>
+                      </p>
                       <p className="text-black font-inter text-base !leading-[121%] font-medium opacity-70">
                         {offer.Price}
                       </p>

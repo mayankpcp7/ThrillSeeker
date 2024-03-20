@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1456a29.css",
-    "main.js": "/static/js/main.ad9e9d86.js",
+    "main.css": "/static/css/main.b84bdd88.css",
+    "main.js": "/static/js/main.00064c8c.js",
     "static/js/453.c571e350.chunk.js": "/static/js/453.c571e350.chunk.js",
     "static/media/HeaderBg.webp": "/static/media/HeaderBg.0c713a1ab2a675034d9b.webp",
     "static/media/MaldivesIsland.webp": "/static/media/MaldivesIsland.540a8e8fb18f06d0512f.webp",
@@ -33,12 +33,12 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/SelectIcon.svg": "/static/media/SelectIcon.12916f0859a0a8d61b38.svg",
-    "main.b1456a29.css.map": "/static/css/main.b1456a29.css.map",
-    "main.ad9e9d86.js.map": "/static/js/main.ad9e9d86.js.map",
+    "main.b84bdd88.css.map": "/static/css/main.b84bdd88.css.map",
+    "main.00064c8c.js.map": "/static/js/main.00064c8c.js.map",
     "453.c571e350.chunk.js.map": "/static/js/453.c571e350.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1456a29.css",
-    "static/js/main.ad9e9d86.js"
+    "static/css/main.b84bdd88.css",
+    "static/js/main.00064c8c.js"
   ]
 }
