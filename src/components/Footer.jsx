@@ -29,9 +29,9 @@ const Footer = () => {
                         {/*========================== footer-icons ============================*/}
                         <div className="flex items-center justify-center flex-wrap gap-5 sm:gap-6 mt-5 md:mt-6 lg:mt-8 xl:mt-10">
 
-                            <a target='_blank' href="https://www.instagram.com/"><InstagramIcon /></a>
-                            <a target='_blank' href="https://www.facebook.com/"><FacebookIcon /></a>
-                            <a target='_blank' href="https://twitter.com/"><TwitterIcon /></a>
+                            <a target='_blank' aria-label='Instagram' href="https://www.instagram.com/"><InstagramIcon /></a>
+                            <a target='_blank' aria-label='Facebook' href="https://www.facebook.com/"><FacebookIcon /></a>
+                            <a target='_blank' aria-label='Twitter' href="https://twitter.com/"><TwitterIcon /></a>
                         </div>
                     </div>
 
