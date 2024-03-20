@@ -53,22 +53,27 @@ const Header = () => {
             </div>
             {/*======================================= select Country ===========================================*/}
             <div className="flex sm:flex-row flex-col max-w-[360px] mx-auto sm:max-w-full  gap-[15px] items-center lg:justify-start justify-center flex-wrap mt-6">
+              <label for="country" class="sr-only">Choose your country</label>
               <select id="country" class="appearance-none bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
-                <option className="font-inter text-grey text-sm lg:text-base">Your Country</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="US">India</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="US">United States</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="CA">Canada</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="FR">France</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="DE">Germany</option>
+                <option value="" disabled selected hidden>Your Country</option>
+                <option value="IN">India</option>
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
               </select>
+
+
               {/*======================================= select Dates ===========================================*/}
+              <label for="date" class="sr-only">Select a date</label>
               <select id="date" class="appearance-none bg-white border cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
-                <option className="font-inter text-grey text-sm lg:text-base">Select Date</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="US">16/3/24</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="CA">17/3/24</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="FR">18/3/24</option>
-                <option className="font-inter text-grey text-sm lg:text-base" value="DE">19/3/24</option>
+                <option value="" disabled selected hidden>Select Date</option>
+                <option value="16/3/24">16/3/24</option>
+                <option value="17/3/24">17/3/24</option>
+                <option value="18/3/24">18/3/24</option>
+                <option value="19/3/24">19/3/24</option>
               </select>
+
               {/*======================================= select flight ===========================================*/}
               <div id="flight" class="bg-white border flex items-center justify-start cursor-pointer text-grey bg-no-repeat font-inter border-[#cfcfcf] rounded-[10px] px-2 lg:px-4 w-[157px] lg:w-[170px] md:w-[145px] xl:w-[220px] h-[45px] lg:h-[51px] relative">
                 <p className="font-inter text-grey text-center text-sm lg:text-base">Your Flight</p>
