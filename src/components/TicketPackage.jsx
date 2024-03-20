@@ -130,7 +130,7 @@ const TicketPackage = () => {
                     <p className="text-center font-inter text-sm md:text-base text-primaryblack max-w-[476px]">
                       {ticket.About}
                     </p>
-                    <h6 className="text-black text-lg text-center sm:text-xl font-inter mt-4 font-medium !leading-[150%]">{ticket.Price}</h6>
+                    <p className="text-black text-lg text-center sm:text-xl font-inter mt-4 font-medium !leading-[150%]">{ticket.Price}</p>
                     <a aria-label="ticket" className="mt-4 sm:mt-6 text-base leading-[121%] hover:text-black transition-all duration-300 font-semibold underline font-inter text-extralightred"
                       href="#BookNow">{ticket.Link}</a>
                   </div>

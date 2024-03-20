@@ -19,7 +19,7 @@ html {
 }
 
 /*========================  Hide the default arrow  =========================*/
-select#arrow {
+select#category_select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
